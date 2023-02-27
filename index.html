@@ -115,211 +115,6 @@
 
 
 
-.chat-overlay {
-  position: fixed;
-  width: 376px;
-  height: 535px;
-  bottom: 24px;
-  right: 24px;
-  z-index: 90;
-}
-   
-.chat-overlay-closed .header-logo {
-  display: none;
-}
-   
-.chat-overlay-banner {
-  display: none;
-  height: 100px;
-  background: rgb(247, 247, 247);
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
-}
-   
-.chat-overlay-banner.chat-overlay-close {
-   display: none;
-}
-   
-.chat-overlay-banner-title {
-   padding-bottom: 0.2rem;
-   font-weight: 800;
- }
-   
-.chat-overlay-banner-helper {
-   opacity: 0.50;
-   padding-bottom: 0.8rem;
- }
-   
-.header-logo {
-  height: 30px;
-  background: rgb(247, 247, 247);
-  border-radius: 0.5rem 0.5rem 0 0;
-  display: none;
-}
-   
-.header-logo img, .header-logo svg {
-  height: inherit;
-}
-   
-.header-logo img.chat-overlay-close {
-  margin-left: auto;
-  align-self: center;
-  height: 50%;
-  padding: 0.5rem;
-}
-   
-.header-logo svg.chat-overlay-close {
-  margin-left: auto;
-  align-self: center;
-  height: 90%;
-  width: 8%;
-}
-  
-.chat-overlay-open {
-    height: 535px;
-}
-  
-.chat-overlay-closed {
-    height: 71px;
-}
-  
-.chat-overlay-wrapper {
-  width: 376px;
-  height: 448px;
-}
-  
-.chat-overlay-header-mobile {
-    display: none;
-}
-  
-.chat-overlay-header {
-  position: relative;
-  height: 56px;
-  width: 56px;
-  border: 1px solid #FFF;
-  background: #FFF;
-  margin-left: auto;
-  border-radius: 50%;
-  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
-}
-  
-#receiver {
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
-  border-radius: 0 0 0.5rem 0.5rem;
-}
-  
-#receiver.chat-overlay-close {
-  height: 0;
-  opacity: 0;
-  overflow: hidden;
-}
-  
-#receiver.chat-overlay-open {
-  height: 100%;
-  opacity: 1;
-  overflow: hidden;
-}
-  
-.chat-overlay-header-img {
-  position: absolute;
-  max-width: 24px;
-  max-height: 24px;
-  transition: opacity 1s ease-in-out;
-  opacity: 1;
-  right: 0px;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  margin: auto;
-}
-  
-.chat-overlay-header-img.open {
-  opacity: 0;
-}
-    
-.absolute-cart-box {
-  display: none;
-}
-  
-@media only screen and (max-width: 768px) {
-  .chat-overlay {
-    width: 100%;
-    position: fixed;
-    height: 100%;
-  }
-   
-  .chat-overlay .header-logo {
-    display: none;
-  }
-  
-  .chat-overlay-header-mobile {
-    display: flex;
-    width: inherit;
-    height: 9%;
-    background: rgb(247, 247, 247);
-  }
-  
-  .chat-overlay-header-mobile img {
-    height: 30%;
-    padding: 1rem;
-    align-self: center;
-  }
-   
-  .chat-overlay-header-mobile svg.chat-overlay-close {
-    padding: 0.7rem;
-    width: 45px;
-    margin-left: auto;
-    height: 100%;
-  }
-   
-  .chat-overlay-header-mobile img.logo {
-    height: 80%;
-    padding: 1rem;
-  }
-  
-  .chat-overlay-header-mobile.chat-overlay-close {
-    display: none;
-  }
-  
-  #receiver {
-    border-radius: 0;
-  }
-  
-  #receiver.chat-overlay-close {
-    height: 0;
-    opacity: 0;
-    overflow: hidden;
-  }
-  
-  #receiver.chat-overlay-open {
-    height: 91%;
-    opacity: 1;
-    overflow: hidden;
-  }
-  
-  .chat-overlay-open {
-    height: 100%;
-    bottom: 0px;
-    right: 0px;
-  }
-  
-  .chat-overlay-closed {
-    height: 205px;;
-    bottom: 24px;
-    right: 24px;
-    width: 88%;
-  }
-  
-  .chat-overlay-wrapper {
-    width: 100%;
-    height: 100%;
-  }
-}
-
 </style>
     <!-- OneTrust Cookies Consent Notice start for omnicell.com -->
 <script type="text/javascript" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/OtAutoBlock.js.download"></script>
@@ -604,7 +399,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
         <div class="i18nmenu__mask"></div>
     </section>
     <!-- Logo and Meganav -->
-    <header class="mainmenu headroom headroom--init headroom--top" role="banner">
+    <header class="mainmenu headroom headroom--init headroom--pinned headroom--top" role="banner">
         <button type="button" class="mainmenu__back">
             <svg viewBox="0 0 17.6 34.3" class="">
                 <path d="M17.3,25c-0.4-0.4-1-0.4-1.4,0L9.8,31V1c0-0.6-0.4-1-1-1s-1,0.4-1,1v30L1.7,25c-0.4-0.4-1-0.4-1.4,0           		s-0.4,1,0,1.4L7.9,34c0.2,0.2,0.5,0.3,0.7,0.3c0.1,0,0.1,0,0.2,0c0.1,0,0.1,0,0.2,0c0.3,0,0.5-0.1,0.7-0.3l7.6-7.6 C17.7,26,17.7,25.3,17.3,25z"></path>
@@ -628,7 +423,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
                                 <a href="https://www.omnicell.com/">
                                     <span>Customers</span>
                                 </a>
-                                <a href="https://www.omnicell.com/">
+                                <a href="https://www.omnicell.com/" class="">
                                     <span>Resources</span>
                                 </a>
                                 <a href="https://www.omnicell.com/">
@@ -691,7 +486,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
         </div>
             <div class="megamenu">
                 <div class="container-fluid megamenu__container">
-                    <div class="megamenu__mask"></div>
+                    <div class="megamenu__mask" style="opacity: 0; visibility: hidden;"></div>
                     <div class="row megamenu__row">
                         <div class="col-8 offset-2 megamenu__col megamenu__col--desktop-transition">
 <nav id="solutions-nav" class="meganav meganav--tiled">
@@ -99368,7 +99163,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
         </a>
     </div>
                     </nav>
-    <nav class="meganav meganav--tiled">
+    <nav class="meganav meganav--tiled" style="visibility: hidden; opacity: 1; transform: translate3d(0px, 0px, 1px);">
         <div id="AllResources" class="meganav__group meganav__group--1up">
             <a href="https://www.omnicell.com/resources" class="meganav__item meganav__item--button meganav__link">
                             <svg viewBox="0 0 29 25">
@@ -103980,7 +103775,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
 
                                 <div class="highlight-ornaments left-desktop-ornament ornament-pos-left isDesktop Ornament--Design-3">
 
-                                        <svg class="lazyload" width="163" height="54" viewBox="0 0 163 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <svg class=" lazyloaded" width="163" height="54" viewBox="0 0 163 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M26 27H54V13.5C54 9.072 52.684 5.751 50.1733 3.429C47.4387 0.845998 43.332 0 40 0C36.668 0 32.5613 0.845998 29.8267 3.429C27.3627 5.751 26 9.072 26 13.5V27Z" fill="#B9FDCD"></path>
                                             <path d="M26 27H0V40.5C0 44.928 1.22201 48.249 3.55334 50.571C6.09267 53.154 9.906 54 13 54C16.094 54 19.9073 53.154 22.4467 50.571C24.7347 48.249 26 44.928 26 40.5V27Z" fill="#79EA8E"></path>
                                             <path d="M54 27V54H149.375C153.844 54 157.196 52.731 159.539 50.31C162.146 47.673 163 43.713 163 40.5C163 37.287 162.146 33.327 159.539 30.69C157.196 28.314 153.844 27 149.375 27H54Z" fill="#22CBED"></path>
@@ -104033,7 +103828,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
                                                 <span>
                                                     Listen Now
                                                 </span>
-                                                <img class="omnigreen-arrow lazyload" data-src="https://www.omnicell.com//Content/img/arrow-omnicell-green.svg" role="presentation" alt="green arrow  next Omnicell page" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/arrow-omnicell-green(1).svg" width="35px" height="19px">
+                                                <img class="omnigreen-arrow ls-is-cached lazyloaded" data-src="https://www.omnicell.com//Content/img/arrow-omnicell-green.svg" role="presentation" alt="green arrow  next Omnicell page" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/arrow-omnicell-green(1).svg" width="35px" height="19px">
                                             </a>
                                     </div>
                                 </div>
@@ -104064,7 +103859,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
                                                 <span>
                                                     Read More
                                                 </span>
-                                                <img class="omnigreen-arrow lazyload" data-src="https://www.omnicell.com//Content/img/arrow-omnicell-green.svg" role="presentation" alt="green arrow  next Omnicell page" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/arrow-omnicell-green(1).svg" width="35px" height="19px">
+                                                <img class="omnigreen-arrow ls-is-cached lazyloaded" data-src="https://www.omnicell.com//Content/img/arrow-omnicell-green.svg" role="presentation" alt="green arrow  next Omnicell page" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/arrow-omnicell-green(1).svg" width="35px" height="19px">
                                             </a>
 
                                     </div>
@@ -104083,7 +103878,7 @@ window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {th
 
 <link rel="stylesheet preload prefetch" href="https://www.omnicell.com/US/CSS/Tray%20Blocks/portfolio.css" crossorigin="">
 
-    <section id="portfolio-wrapper" class="Portfolio-component tray tray--featured--block tray--light-green white--text lazyload light" style="background-color: #46B555;">
+    <section id="portfolio-wrapper" class="Portfolio-component tray tray--featured--block tray--light-green white--text light lazyloaded" style="background-color: #46B555;">
         <div id="component-b7d7718569297c1ae4ec3402842114f2 ">
         <div class="container-fluid">
             <div class="featured-block-ornaments">
@@ -104736,6 +104531,267 @@ height:auto;
 
 }}
 </style>
+<style>
+.chat-overlay {
+  position: fixed;
+  width: 376px;
+  height: 535px;
+  bottom: 24px;
+  right: 24px;
+  z-index: 90;
+}
+   
+.chat-overlay-closed .header-logo {
+  display: none;
+}
+   
+.chat-overlay-banner {
+  display: none;
+  height: 100px;
+  background: rgb(247, 247, 247);
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+}
+   
+.chat-overlay-banner.chat-overlay-close {
+   display: none;
+}
+   
+.chat-overlay-banner-title {
+   padding-bottom: 0.2rem;
+   font-weight: 800;
+ }
+   
+.chat-overlay-banner-helper {
+   opacity: 0.50;
+   padding-bottom: 0.8rem;
+ }
+   
+.header-logo {
+  height: 30px;
+  background: rgb(247, 247, 247);
+  border-radius: 0.5rem 0.5rem 0 0;
+  display: none;
+}
+   
+.header-logo img, .header-logo svg {
+  height: inherit;
+}
+   
+.header-logo img.chat-overlay-close {
+  margin-left: auto;
+  align-self: center;
+  height: 50%;
+  padding: 0.5rem;
+}
+   
+.header-logo svg.chat-overlay-close {
+  margin-left: auto;
+  align-self: center;
+  height: 90%;
+  width: 8%;
+}
+  
+.chat-overlay-open {
+    height: 535px;
+}
+  
+.chat-overlay-closed {
+    height: 71px;
+}
+  
+.chat-overlay-wrapper {
+  width: 376px;
+  height: 448px;
+}
+  
+.chat-overlay-header-mobile {
+    display: none;
+}
+  
+.chat-overlay-header {
+  position: relative;
+  height: 56px;
+  width: 56px;
+  border: 1px solid #FFF;
+  background: #FFF;
+  margin-left: auto;
+  border-radius: 50%;
+  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+}
+  
+#receiver {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+  
+#receiver.chat-overlay-close {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+  
+#receiver.chat-overlay-open {
+  height: 100%;
+  opacity: 1;
+  overflow: hidden;
+}
+  
+.chat-overlay-header-img {
+  position: absolute;
+  max-width: 24px;
+  max-height: 24px;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+  
+.chat-overlay-header-img.open {
+  opacity: 0;
+}
+    
+.absolute-cart-box {
+  display: none;
+}
+  
+@media only screen and (max-width: 768px) {
+  .chat-overlay {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+  }
+   
+  .chat-overlay .header-logo {
+    display: none;
+  }
+  
+  .chat-overlay-header-mobile {
+    display: flex;
+    width: inherit;
+    height: 9%;
+    background: rgb(247, 247, 247);
+  }
+  
+  .chat-overlay-header-mobile img {
+    height: 30%;
+    padding: 1rem;
+    align-self: center;
+  }
+   
+  .chat-overlay-header-mobile svg.chat-overlay-close {
+    padding: 0.7rem;
+    width: 45px;
+    margin-left: auto;
+    height: 100%;
+  }
+   
+  .chat-overlay-header-mobile img.logo {
+    height: 80%;
+    padding: 1rem;
+  }
+  
+  .chat-overlay-header-mobile.chat-overlay-close {
+    display: none;
+  }
+  
+  #receiver {
+    border-radius: 0;
+  }
+  
+  #receiver.chat-overlay-close {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }
+  
+  #receiver.chat-overlay-open {
+    height: 91%;
+    opacity: 1;
+    overflow: hidden;
+  }
+  
+  .chat-overlay-open {
+    height: 100%;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .chat-overlay-closed {
+    height: 205px;;
+    bottom: 24px;
+    right: 24px;
+    width: 88%;
+  }
+  
+  .chat-overlay-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+}
+</style>
+
+<div class="chat-overlay chat-overlay-closed">
+     <div class="chat-overlay-banner">
+        <div class="chat-overlay-banner-title">Amelia</div>
+        <div class="chat-overlay-banner-helper">Virtual Assistant</div>
+        <div class="chat-overlay-banner-description">Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.</div>
+    </div>
+    <div class="header-logo">
+       <img class="logo" alt="logo" />
+        <!-- <img class="chat-overlay-close" src="./close.png" alt="toggle chat overlay" /> -->
+        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <line x1="4" y1="4" x2="20" y2="20" stroke="#003592" stroke-width="3"></line>
+          <line x1="20" y1="4" x2="4" y2="20" stroke="#003592" stroke-width="3"></line>
+        </svg>
+    </div>
+    <div class="chat-overlay-wrapper">
+      <div class="chat-overlay-header-mobile chat-overlay-close">
+        <img class="logo" alt="logo" />
+        <!-- <img class="chat-overlay-close" src="/close.png" alt="toggle chat overlay" /> -->
+        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <line x1="1" y1="1" x2="40" y2="40" stroke="#003592" stroke-width="4"></line>
+          <line x1="40" y1="1" x2="1" y2="40" stroke="#003592" stroke-width="4"></line>
+        </svg>
+      </div>
+      <iframe id="receiver" class="chat-overlay-close" frameborder="0" width="100%" height="100%" allow="geolocation; microphone; camera">
+        <p>Your browser does not support iframes.</p>
+      </iframe>
+      <div class="chat-overlay-header">
+        <img class="chat-overlay-header-img chat-overlay-close" alt="toggle chat overlay" />
+        <img class="chat-overlay-header-img chat-overlay-open" alt="toggle chat overlay" />
+      </div>
+    </div>
+  </div>
+  <script>
+var clientConfig = {
+  iframeSrc: 'https://omnicell.dev.amelia.com/Amelia/ui/omnicell/?embed=iframe&domainCode=omnicell',
+  openOnLoad: false,
+  header: {
+    backgroundColor: 'green',
+    backgroundImage: './open.png'
+  },
+  openCloseContainer: {
+    openIconSrc: './icon.png',
+    closeIconSrc: './close.png',
+    backgroundColor: 'blue'
+  },
+  banner: {
+    title: 'Amelia',
+    helper: 'Virtual Assistant',
+    description: 'Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.'
+  },
+  dragAndDropChatOverlay: true
+};
+</script>
+
 
 <!-- IE model popup-->
 <div id="IE-popup" class="igx-modal rss-blog-modal active" data-target="IEModal" style="display: none;">
@@ -105019,61 +105075,7 @@ $(window).resize(function(){
         border-color: #4bb459 !important;
     }</style>
     
-    <div class="chat-overlay chat-overlay-closed">
-     <div class="chat-overlay-banner">
-        <div class="chat-overlay-banner-title">Amelia</div>
-        <div class="chat-overlay-banner-helper">Virtual Assistant</div>
-        <div class="chat-overlay-banner-description">Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.</div>
-    </div>
-    <div class="header-logo">
-       <img class="logo" alt="logo" />
-        <!-- <img class="chat-overlay-close" src="./close.png" alt="toggle chat overlay" /> -->
-        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <line x1="4" y1="4" x2="20" y2="20" stroke="#003592" stroke-width="3"></line>
-          <line x1="20" y1="4" x2="4" y2="20" stroke="#003592" stroke-width="3"></line>
-        </svg>
-    </div>
-    <div class="chat-overlay-wrapper">
-      <div class="chat-overlay-header-mobile chat-overlay-close">
-        <img class="logo" alt="logo" />
-        <!-- <img class="chat-overlay-close" src="/close.png" alt="toggle chat overlay" /> -->
-        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <line x1="1" y1="1" x2="40" y2="40" stroke="#003592" stroke-width="4"></line>
-          <line x1="40" y1="1" x2="1" y2="40" stroke="#003592" stroke-width="4"></line>
-        </svg>
-      </div>
-      <iframe id="receiver" class="chat-overlay-close" frameborder="0" width="100%" height="100%" allow="geolocation; microphone; camera">
-        <p>Your browser does not support iframes.</p>
-      </iframe>
-      <div class="chat-overlay-header">
-        <img class="chat-overlay-header-img chat-overlay-close" alt="toggle chat overlay" />
-        <img class="chat-overlay-header-img chat-overlay-open" alt="toggle chat overlay" />
-      </div>
-    </div>
-  </div>
-
-  <script>
-var clientConfig = {
-  iframeSrc: 'https://omnicell.dev.amelia.com/Amelia/ui/omnicell/?embed=iframe&domainCode=omnicell',
-  openOnLoad: true,
-  header: {
-    backgroundColor: 'green',
-    backgroundImage: './ameliaLogo.png'
-  },
-  openCloseContainer: {
-    openIconSrc: './icon.png',
-    closeIconSrc: './close.png',
-    backgroundColor: 'blue'
-  },
-  banner: {
-    title: 'Amelia',
-    helper: 'Virtual Assistant',
-    description: 'Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.'
-  },
-  dragAndDropChatOverlay: true
-};
-</script>
-<script>
+    <script>
     var isInit = false;
     var chatOverlayDefaultStateOpen = false;
  
@@ -105290,6 +105292,4 @@ var clientConfig = {
       el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
     }
     /// END of Chat Overlay drag and drop
-</script>
-
-    </body></html>
+</script></body></html>
