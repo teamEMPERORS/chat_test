@@ -1,0 +1,5218 @@
+
+#pt-newsletter.x4475 {
+	overflow-y: scroll;
+}
+body.x214.fixed,
+body.x212.fixed {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.footer-arrow-tablet {
+    display: none;
+    position: absolute;
+    top: 0;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.footer-arrow-tablet .btt{
+    top: 0;
+    width: fit-content;
+    position: relative;
+}
+
+#featured-events .row div:nth-child(5),
+#featured-events .row div:nth-child(8),
+#featured-events .row div:nth-child(11),
+#featured-events .row div:nth-child(14){
+	margin-left: 25%;
+}
+
+#featured-events .row div div.linking-card {
+	margin-bottom: 40px;
+}
+
+#contact-us-page .tray .contentbox p {
+	padding-top: 30px;
+}
+
+#contact-us-page .tray .contentbox h2{
+    display:none;
+}
+
+#retail-pharmacy-page .colorswitch .hero__content .contentbox p {
+	font-size: 1.5rem;
+}
+
+.mainmenuplaceholder {
+    display: none;
+    position: absolute;
+    top: -10%;
+}
+
+.stick.headroom_hidden {
+    margin-top: 35px;
+}
+
+.stick.nav-pinned {
+    margin-top: 40px;
+}
+
+
+.hero .hero__background.hero__background--full .container-fluid {
+    overflow: hidden;
+}
+
+.colorswitch {
+    padding-top: 32px;
+}
+
+#narrative__page .hero--variant-5 .hero__banner image {
+    transform: scale(0.660088) translateY(18%) !important;
+}
+
+
+#health-system-page .hero__banner-position image {
+    transform: translateX(-7.426026%) !important;
+}
+
+#intelligence-page .hero__banner-position image {
+    transform: translateX(-27.426026%) !important;
+}
+
+#training-page .hero__banner-position image {
+    transform: translateX(-32.426026%) !important;
+}
+
+#health-system-page .hero--variant-1 .hero__banner {
+    position: relative;
+    height: 69%;
+    top: 101px;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    padding-right: 0;
+}
+
+#home-page .hero.hero--variant-2 {
+    margin-bottom: 30px;
+}
+
+#ivx-station-compounding-robot-page .pill--variant-horz--banner-1 image,
+#ivx-workflow-management-system-page .pill--variant-horz--banner-1 image,
+#ivx-cloud-page .pill--variant-horz--banner-1 image,
+#reinvent-global-registry-of-iv-preparations-page .pill--variant-horz--banner-1 image,
+#formulary-tool-kit-page .pill--variant-horz--banner-1 image {
+    width: 100%;
+}
+
+#omnicell-patient-engagement-page .pill--variant-horz--banner-1 image,
+#medication-synchronization-page .pill--variant-horz--banner-1 image,
+#immunization-solutions-page .pill--variant-horz--banner-1 image,
+#carescheduler-page .pill--variant-horz--banner-1 image,
+#medication-therapy-management-\(mtm\)-page .pill--variant-horz--banner-1 image,
+#omnicell-opioid-mitigation-page .pill--variant-horz--banner-1 image,
+#omnicell-ivr-system-page .pill--variant-horz--banner-1 image,
+#outbound-patient-communications-system-page .pill--variant-horz--banner-1 image {
+    width: 100%;
+}
+
+#pt-product .pill--variant-horz--banner-1 image {
+    width: 100%;
+}
+
+#quote_block .quoteText {
+    margin-bottom: 3.4375rem;
+    color: #334033;
+    font-size: 36px;
+    line-height: 1.28;
+    font-family: Unitext, Roboto, Helvetica, Arial, Sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    font-weight: 200;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#pt-product .video-caption.h3.text-align--center.text-color--omnicell-green {
+    color: #334033;
+    cursor: default;
+}
+
+#pt-product .contentbox h1,
+#pt-product .contentbox label {
+    color: #334033;
+    margin-bottom: 3.4375rem;
+    font-weight: 200;
+}
+
+#pt-leadership-detail h1 {
+    font-size: 36px;
+    line-height: 1.28;
+    font-weight: 200;
+    color: #001000;
+}
+
+#pt-product .accordion .accordion__trigger h3 {
+    margin-bottom: 5px;
+    color: #334033;
+    font-size: 36px;
+    line-height: 1.28;
+    font-weight: 200;
+}
+
+#pt-product .contentbox label {
+    font-size: 36px;
+    line-height: 1.28;
+}
+
+#narrative__page .policy-wrapper .contentbox .head h2 {
+    color: #46b555;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+#narrative__page .policy-wrapper .policy-nav {
+    margin-bottom: 40px;
+}
+
+#narrative__page .policy-wrapper .contentbox {
+    margin-top: 35px;
+}
+
+#narrative__page .policy-wrapper .contentbox p {
+    margin-bottom: 20px;
+}
+
+#narrative__page .policy-wrapper .contentbox .head p.short-description {
+    margin-top: 20px;
+}
+
+#narrative__page .policy-wrapper .contentbox .head {
+    margin-bottom: 30px;
+}
+
+#narrative__page .policy-wrapper p+p,
+#narrative__page .policy-wrapper .p+p {
+    margin-top: unset !important;
+}
+
+
+#narrative__page .policy-wrapper br+br {
+    display: block;
+}
+
+#torrance-memorial’s-ehr-adc-interoperability-leads-to-gains-in-safety\,-efficiency-page #quote_block {
+    padding: 0;
+}
+
+.html_logo {
+    font-size: 20px;
+}
+
+.alphanumeric li {
+    list-style: lower-alpha;
+}
+
+.module_related-document a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.module_related-document .q4icons_icon {
+    width: 22px;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#pt-newsletter-article .table-wrapper table#reconciliation_of_GAAP_1 tr td:last-child,
+#pt-newsletter-article .table-wrapper table#condensed-consolidated-statements tr td:last-child,
+#pt-newsletter-article .table-wrapper table#reconciliation_of_GAAP_to_Non-GAAP tr td:last-child {
+    width: 0;
+    padding-right: 5px;
+}
+
+#pt-newsletter-article .table-wrapper #statements_of_operations .bwwidth45 {
+    width: 50%;
+}
+
+#pt-newsletter-article .table-wrapper #statements_of_operations .bwwidth8 {
+    width: 10%;
+}
+
+
+#pt-newsletter-article .table-wrapper .bwalignl {
+    text-align: left;
+}
+
+#pt-newsletter-article .table-wrapper tr td.bwsinglebottom:last-child {
+    border-bottom: solid black 1.0pt;
+}
+
+#pt-newsletter-article .table-wrapper #guidance-outline tr td:last-child {
+    border-bottom: solid black 1.0pt;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadr0,
+#pt-newsletter-article .table-wrapper td {
+    padding-right: 0;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth63 {
+    width: 63%;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth64 {
+    width: 64%;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth100 {
+    width: 100%;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth8 {
+    width: 8%;
+}
+
+#pt-newsletter-article .table-wrapper .bwtotal {
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+}
+
+#pt-newsletter-article .table-wrapper .bwtotal::after {
+    content: "";
+    border-bottom: 1px solid;
+    display: block;
+}
+
+/*#pt-newsletter-article .table-wrapper .bwdoublebottom::after {*/
+/*    content:"";*/
+/*	border-bottom: 1px solid;*/
+/*	display:block;*/
+/*}*/
+
+#pt-newsletter-article .module_link {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 40px 10px 0;
+    position: relative;
+}
+
+#pt-newsletter-article .module_link:hover {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+#pt-newsletter-article .module_link>span {
+    vertical-align: middle;
+}
+
+#pt-newsletter-article .table-wrapper tr td:last-child {
+    padding-right: 10px;
+    border-bottom: 0;
+}
+
+#pt-newsletter-article .table-wrapper {
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth79 {
+    width: 79%;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth61 {
+    width: 61%;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadleft10 {
+    padding-left: 10px;
+}
+
+#pt-newsletter-article br+br {
+    display: block;
+}
+
+#pt-newsletter-article .table-wrapper .bwvertalignt {
+    vertical-align: top;
+}
+
+#pt-newsletter-article .table-wrapper .bwalignr {
+    text-align: right;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth1 {
+    width: 1%;
+}
+
+#pt-newsletter-article .table-wrapper {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadl0 {
+    padding-left: 0.0px;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth36 {
+    width: 36%;
+}
+
+#pt-newsletter-article .table-wrapper .bwsinglebottom {
+    border-bottom: solid black 1.0pt;
+}
+
+.lower-roman li {
+    list-style: lower-roman;
+}
+
+ol.rightpara {
+    counter-reset: list;
+}
+
+ol.rightpara>li {
+    list-style: none;
+}
+
+ol.rightpara>li:before {
+    content: counter(list, lower-alpha) ") ";
+    counter-increment: list;
+}
+
+/*#pt-newsletter-article table .bwvertalignb {*/
+/*  vertical-align: bottom;*/
+/*}*/
+
+#pt-newsletter-article .table-wrapper .bwtopsingle {
+    border-top: solid black 1pt;
+}
+
+#pt-newsletter-article .table-wrapper .bwrightsingle {
+    border-right: solid black 1pt;
+}
+
+#pt-newsletter-article .table-wrapper .bwtopsingle {
+    border-top: solid black 1pt;
+}
+
+#pt-newsletter-article .table-wrapper td {
+    text-align: center;
+}
+
+#pt-newsletter-article .table-wrapper td:first-child {
+    text-align: left;
+}
+
+#pt-newsletter-article .table-wrapper .bwnowrap {
+    white-space: nowrap;
+}
+
+#pt-newsletter-article .table-wrapper .bwalignc {
+    text-align: center;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadl6 {
+    padding-left: 30.0px;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadl9 {
+    padding-left: 45.0px;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth45 {
+    width: 15%;
+}
+
+#pt-newsletter-article .table-wrapper .bwcellpmargin {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth3 {
+    width: 3%;
+}
+
+#pt-newsletter-article .table-wrapper .bwsinglebottom {
+    border-bottom: solid black 1.0pt;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth2 {
+    width: 2%;
+}
+
+#pt-newsletter-article .table-wrapper .bwpadl3 {
+    padding-left: 15.0px;
+}
+
+#pt-newsletter-article .table-wrapper .bwrowaltcolor0 {
+    background-color: #cceeff;
+}
+
+#pt-newsletter-article .table-wrapper .bwwidth98 {
+    width: 98%;
+}
+
+#pt-newsletter-article .table-wrapper .bwalighnleft {
+    text-align: left;
+}
+
+#services-page .block-10-desktop_customization h3 {
+    font-weight: 200;
+}
+
+.product-right-rail .button {
+    width: 94%;
+}
+
+#pt-newsletter-article .tray-sign-1 .pill--variant-horz--banner-1 {
+    left: -121%;
+}
+
+#next-virtual-event .date-time p {
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: top;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+#next-virtual-event .date-time ul {
+    display: inline-block;
+}
+
+#terms-page #UseOfInformation {
+    padding-top: 30px;
+    display: block;
+}
+
+#cape-regional-doubles-down-on-medication-dispensing-robotics-page #quote_block.tray--flush-top {
+    padding-top: 0;
+    margin-top: -40px;
+}
+
+#pt-newsletter ul.filter-results li.active a.listing-filter {
+    color: #46b555 !important;
+    text-decoration: none;
+}
+
+#pt-newsletter ul.filter-results li.active {
+    color: #46b555;
+}
+
+#central-pharmacy-iv-compounding-service-page .accordion {
+    margin-left: 11px;
+}
+
+#customer-stories-page .helper-text {
+    display: none;
+}
+
+#pt-leadership-detail .tray--img-pill .bubble.bubble-1 img {
+    transform: none;
+    top: 5%;
+    border-radius: 50%;
+}
+
+#pt-leadership #wrapper-container {
+    margin-bottom: -10px;
+}
+
+.x214 .igx-modal.active {
+
+    max-width: 100%;
+}
+
+.highlight--tray.tray--highlight-block-2-1 {
+    padding-bottom: 40px;
+}
+
+.rss-blog-modal {
+    width: 600px;
+    display: none;
+}
+
+.rss-blog-modal .igx-modal__header {
+    margin-bottom: 0;
+}
+
+.rss-blog-modal .rss-container {
+    text-align: center;
+}
+
+.rss-blog-modal .buttons-wrap {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.rss-blog-modal .buttons-wrap .rss-btn {
+    margin: 0 20px;
+    border: 0;
+    background: #FFFFFF;
+    padding: 5px 10px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+}
+
+.rss-blog-modal .buttons-wrap .btn-ok {
+    background: #46b555;
+    color: #FFFFFF;
+    border: 1px solid #46b555;
+}
+
+.rss-blog-modal .buttons-wrap .btn-cancel {
+    border: 1px solid #9a9a9a;
+    background: #FFFFFF;
+    color: #9a9a9a;
+}
+
+.x214 .igx-modal {
+    max-width: 100%;
+}
+
+main#summer-2021-release-\|-omnicell-page .single-card img {
+    border-radius: 0 0 16px 0;
+    height: 240px;
+    max-width: 394px;
+}
+
+main#summer-2021-release-\|-omnicell-page .single-card a.more-link img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    transform: translateY(10px) scale(1);
+
+}
+
+#summer-2021-release-\|-omnicell-page .intro-products-releases a.more-link img {
+    transform: translateY(3px);
+}
+
+#summer-2021-release-\|-omnicell-page .navigation {
+    padding-top: 53px;
+}
+
+@-moz-document url-prefix() {
+    #summer-2021-release-\|-omnicell-page .navigation {
+        padding-top: 55px;
+    }
+}
+
+
+#summer-2021-release-\|-omnicell-page .navigation ul li:nth-child(2) img {
+    width: 70%;
+}
+
+#product-relations-wrap .action-btns .button.button--text-top:hover h3 {
+    margin-left: 15px;
+}
+
+
+
+#product-relations-wrap .button h3 {
+    transition: .2s ease-out;
+}
+
+#pt-leadership-detail .omni-circle.omni-circle--profile-image {
+    width: 236px;
+    height: 172px;
+    overflow: visible;
+}
+
+#pt-leadership-detail .omni-circle.omni-circle--profile-image img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: unset;
+    border-radius: 0 0 40px 0;
+}
+
+#leadership-page .card-profile-info .persons-title {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 1.33;
+    color: #001000;
+    text-transform: capitalize;
+}
+
+#pt-product .tray--product .image-side img {
+    max-width: 100%;
+}
+
+/*Cookie policy*/
+#bbcdBannerDescription br {
+    display: none;
+}
+
+button#cookie_settings_btn:hover {
+    text-decoration: underline;
+}
+
+button#cookie_settings_btn {
+    font-family: 'unitext';
+    font-weight: 200;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 0;
+    color: #46b555;
+    cursor: pointer;
+    padding-right: 0;
+}
+
+#bbcdBanner {
+    background-color: #1e3a2e;
+    border: 0;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    left: 0;
+    height: auto;
+    width: 100%;
+}
+
+#bbcdBanner strong {
+    color: #46B555;
+}
+
+#bbcdBanner.b-banner .b-buttons div {
+    display: flex;
+    flex-direction: row;
+}
+
+#bbcdBanner.b-banner.b-banner-bottom .b-button {
+    max-width: 170px;
+    margin-right: 20px;
+}
+
+#bbcdBanner.b-banner .b-button {
+    margin-right: 25px;
+    background-color: #46B555;
+    border: 0;
+    padding: 9px 0;
+    margin-top: 12px;
+    min-width: 170px;
+}
+
+#bbcdSettings.b-settings .b-title,
+#bbcdSettings.b-settings .b-cookie-name,
+#bbcdSettings.b-settings a {
+    color: #46B555;
+}
+
+#bbcdSettings.b-settings .b-cookie:first-child {
+    border-top: 1px solid #46B555;
+}
+
+#bbcdSettings.b-settings .b-checkbox .b-pipe:first-child svg {
+    stroke: #46B555;
+}
+
+#bbcdSettings.b-settings .b-checkbox-input:checked+.b-checkbox .b-pipe:first-child {
+    border-color: #46B555;
+}
+
+#bbcdSettings.b-settings .b-cookie {
+    border-bottom: 1px solid #46B555;
+}
+
+#bbcdSettings.b-settings .b-item.b-selected {
+    background-color: #46B555;
+}
+
+#bbcdSettings.b-settings {
+    border: 2px solid #46B555;
+}
+
+#bbcdSettings.b-settings .b-button {
+    background-color: #46B555;
+    border: solid 1px #46B555;
+}
+
+#bbcdSettings.b-settings .b-powered {
+    display: none
+}
+
+#bbcdSettings.b-settings .b-count {
+    background: #001000;
+    color: #fff;
+}
+
+#wrapper-container .i18nmodal {
+    top: -30px;
+}
+
+#pt-product .highlight-columns-2 .highlight-card_title h2,
+#pt-product .highlight-card_title h2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.i18nmenu {
+    position: fixed;
+}
+
+#omnicell-340b--page section#MoreResources {
+    /*margin-bottom: 80px;*/
+}
+
+#autonomous-pharmacy-overview-page .scrollflow.tray.tray--flush.tray--light {
+    padding-bottom: 9%;
+}
+
+div#autonomousPharmacy.Icon {
+    height: 26px;
+    width: 26px;
+    background-image: url('/US/images/homepage/icons/robot-arm.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    fill: #46b555;
+    display: block;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#empty a.hovered:after {
+    opacity: 1;
+    background-position: -100% 0;
+}
+
+#empty a:hover::after {
+    opacity: 0;
+    background-position: 0;
+
+}
+
+#empty a {
+    cursor: auto;
+}
+
+#LeadersinPharmacy a:hover svg path,
+#PressReleases a:hover svg path {
+    fill: #f8f9f7;
+    stroke: transparent;
+}
+
+/*.megamenu nav:nth-child(1) div:nth-child(1):hover div#autonomousPharmacy.Icon {
+    background-image:url('/US/images/homepage/icons/robot-arm-hover.png');
+}*/
+.x109 .container-fluid,
+.x389 .container-fluid {
+    margin-left: auto;
+}
+
+#pt-stories-front ul.filter-results li.active {
+    color: #46B555;
+}
+
+.globalfooter .bottom-bar .col-12.col-md-6 {
+    flex: 0 0 56%;
+    max-width: 60%;
+}
+
+/*start of new navigation*/
+.meganav__caption {
+    font-size: 12px;
+}
+
+.megamenu__col--desktop-transition>.meganav:nth-child(3) .meganav__group--1up:nth-child(2) {
+    background-color: transparent;
+}
+
+.megamenu__col--desktop-transition>.meganav:nth-child(4) .meganav__group--1up:first-child {
+    background-color: rgb(1, 64, 3);
+}
+
+.row.megamenu__row .meganav--tiled .meganav__group:nth-of-type(-n+2) {
+    background: rgba(1, 64, 3, 1);
+}
+
+.meganav {
+    background-color: rgb(7, 47, 17);
+}
+
+.meganav__group--1up a:hover svg ellipse,
+.meganav__group--1up a:hover circle,
+.meganav__group--1up a:hover svg rect,
+/*.meganav__group--1up a:hover svg path,*/
+.meganav__group--1up a:hover svg polyline,
+.meganav__group--1up a:hover svg line,
+.meganav__group--1up a:hover svg polygon {
+    fill: transparent;
+    stroke: #f8f9f7;
+}
+
+#Services.meganav__group--1up a:hover svg path {
+    stroke: none;
+}
+
+#Collateral a svg path,
+.megamenu nav:nth-child(5) div:nth-child(6) svg path {
+    fill: transparent;
+}
+
+#Podcast a:hover svg g g path {
+    fill: #fff;
+}
+
+#Collateral a:hover svg path,
+.megamenu nav:nth-child(5) div:nth-child(6) a:hover svg path {
+    fill: transparent;
+    stroke: #f8f9f7;
+}
+
+.meganav__group--1up a:hover svg path,
+.meganav--tiled .meganav__group--1up a:hover svg g g path {
+    stroke: #f8f9f7;
+}
+
+#OurMission a:hover svg path,
+#Blog a:hover svg path,
+#Webinars a:hover svg path,
+#Podcast a:hover svg path {
+    stroke: transparent;
+}
+
+#Careers a:hover svg path,
+#IntheNews a:hover svg path,
+#Video a:hover svg path,
+#Leadership a:hover svg path,
+div#Press\ Releases a:hover svg path,
+#myOmnicell a:hover svg path,
+#ProductSupport a:hover svg path,
+#ProfessionalServices a:hover svg path,
+#Training a:hover svg path,
+#ProfilesinLeadership a:hover svg path,
+#CustomerStories a:hover svg path {
+    fill: #f8f9f7;
+    stroke: transparent;
+}
+
+#Customers a:hover svg path {
+    stroke: #f8f9f7;
+    fill: transparent;
+}
+
+#Customers svg,
+#ForInvestors svg,
+#OfficeLocations svg,
+#ProductBrochure svg {
+    fill: transparent;
+}
+
+#ProfessionalServices,
+#myOmnicell,
+#ProductSupport,
+#OfficeLocations {
+    background-color: rgba(7, 47, 17, 1);
+}
+
+#solutions-nav .solution-left div a,
+#solutions-nav .solution-right-side div a {
+    padding: 22px 1rem;
+}
+
+#product-relations-wrap.wrapper {
+    background: #F9FAFA;
+    margin-bottom: 150px
+}
+
+.meganav__link:hover svg .st0,
+.meganav__link:hover svg .cls-1 {
+    fill: none !important;
+    stroke: #f8f9f7 !important
+}
+
+.meganav__link .st0 {
+    fill: none
+}
+
+.meganav__link #Art {
+    transform: scale(1.3)
+}
+
+#product-relations-wrap.wrapper .content {
+    min-height: unset;
+    padding-right: 10px
+}
+
+#product-relations-wrap.wrapper .category>div {
+    margin-top: 150px
+}
+
+#product-relations-wrap.wrapper .category>div:first-child {
+    margin-top: unset
+}
+
+#product-relations-wrap.wrapper .category>div:nth-child(2) {
+    margin-top: 70px !important
+}
+
+#product-relations-wrap .contentbox {
+    margin-top: 40px
+}
+
+#product-relations-wrap .contentbox h2 {
+    color: #014003;
+    font-weight: 200
+}
+
+#product-relations-wrap .action-btns .contentbox {
+    margin-top: 18px;
+    padding-right: 20px
+}
+
+#product-relations-wrap .action-btns .contentbox h2 {
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 200;
+    color: #014003
+}
+
+#product-relations-wrap ul li::before {
+    display: none
+}
+
+#product-relations-wrap .button span {
+    width: 100%;
+    display: block;
+    font-size: 13px
+}
+
+#product-relations-wrap .button.button--text-top {
+    padding-top: 14px
+}
+
+#product-relations-wrap .button span.arrow-text {
+    font-size: 24px;
+    margin-left: 10px;
+    opacity: 0;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -ms-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+    transition-delay: .15s;
+    width: auto
+}
+
+#product-relations-wrap .button:hover span.arrow-text {
+    opacity: 1;
+    margin-left: 15px
+}
+
+#product-relations-wrap .button h3 {
+    font-weight: 200
+}
+
+#product-relations-wrap .intro-products-releases .button h3 {
+    width: calc(100% - 50px);
+    font-weight: 200
+}
+
+#product-relations-wrap .intro-products-releases h1 {
+    margin-top: 204px;
+    width: 140%
+}
+
+#product-relations-wrap .intro-products-releases .content p {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 30px
+}
+
+#product-relations-wrap .intro-products-releases .button {
+    position: relative
+}
+
+#product-relations-wrap .intro-products-releases .button h3 {
+    font-size: 18px
+}
+
+#product-relations-wrap .intro-products-releases .button::before {
+    content: '';
+    width: 2000px;
+    height: 76px;
+    display: block;
+    position: absolute;
+    background: #46b555;
+    left: -2000px;
+    top: 0
+}
+
+#product-relations-wrap .more-link {
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    transition: all .25s linear;
+    text-decoration: none;
+    display: flex;
+    font-size: 18px
+}
+
+#product-relations-wrap .more-link img,
+#product-relations-wrap .more-link .arrow-text {
+    opacity: 0;
+    margin-top: -2px;
+    vertical-align: middle;
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+#product-relations-wrap .more-link:hover img,
+#product-relations-wrap .more-link:hover .arrow-text {
+    opacity: 1;
+    margin-left: 10px
+}
+
+#product-relations-wrap .more-link:hover {
+    margin-left: 5px
+}
+
+#product-relations-wrap .name-desc .name h2,
+#product-relations-wrap #signup h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #014003;
+    width: 100%
+}
+
+#product-relations-wrap .name-desc .description {
+    font-size: 24px;
+    line-height: 30px;
+    color: #014003;
+    font-weight: 200;
+    padding-left: 20px
+}
+
+#product-relations-wrap #signup h2 {
+    width: 60%
+}
+
+#product-relations-wrap #signup p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #014003
+}
+
+#product-relations-wrap #signup .more-link {
+    margin-top: 40px
+}
+
+#product-relations-wrap #signup .button {
+    width: 80%;
+    padding: 33px 20px
+}
+
+#product-relations-wrap #signup .button.button--text-top img {
+    margin-top: 6px
+}
+
+#product-relations-wrap #signup ul {
+    margin-top: 30px;
+}
+
+#product-relations-wrap #signup ul li {
+    list-style: disc;
+    font-size: 18px;
+    line-height: 26px;
+    color: #014003;
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach {
+    display: none;
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach h2 {
+    width: 60%
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach p {
+    font-size: 18px;
+    line-height: 26px;
+    color: #014003
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach .more-link {
+    margin-top: 40px
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach .button {
+    width: 80%;
+    padding: 33px 20px
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach .button.button--text-top img {
+    margin-top: 6px
+}
+
+#product-relations-wrap #NewProductDevelopmentApproach h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #014003;
+    width: 100%
+}
+
+.gap {
+    margin: 0;
+    padding: 0;
+    display: block
+}
+
+.gap-200 {
+    height: 200px
+}
+
+.gap-220 {
+    height: 220px
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mt-70 {
+    margin-top: 70px
+}
+
+.mt-100 {
+    margin-top: 100px
+}
+
+.mt-150 {
+    margin-top: 150px
+}
+
+.mt-200 {
+    margin-top: 200px
+}
+
+.mt-220 {
+    margin-top: 220px
+}
+
+.mt-300 {
+    margin-top: 300px
+}
+
+#summer-2021-release-\|-omnicell-page .single-card-desktop img {
+    margin-bottom: 20px;
+}
+
+#product-relations-wrap .btnx {
+    padding: 20px;
+    border-radius: 0 0 30px 0;
+    color: #FFF
+}
+
+#product-relations-wrap .btnx-block {
+    display: block
+}
+
+#product-relations-wrap .btnx-green {
+    background: #46B555
+}
+
+#product-relations-wrap .btnx-ornament {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px
+}
+
+#product-relations-wrap .action-btns .button.button--text-top {
+    margin-top: 18px;
+    padding-left: 20px
+}
+
+#product-relations-wrap .action-btns .button.button--text-top img {
+    margin-top: 5px
+}
+
+#product-relations-wrap .navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+#product-relations-wrap .navigation li {
+    width: 49%;
+    min-height: 240px;
+    background: #FFF;
+    margin-bottom: 20px;
+    border-radius: 0 0 30px 0;
+    margin-left: 0
+}
+
+#product-relations-wrap .navigation li a {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: #46b555;
+    height: 100%
+}
+
+#product-relations-wrap .navigation li a>div {
+    width: 50%
+}
+
+#product-relations-wrap .navigation li a>div:first-child {
+    display: flex;
+    justify-content: center
+}
+
+#product-relations-wrap .navigation li:first-child {
+    border-radius: 30px 0 0 0
+}
+
+#product-relations-wrap .navigation .sub {
+    font-size: 16px;
+    text-transform: uppercase;
+    display: none !important
+}
+
+#product-relations-wrap .navigation img {
+    max-width: 100%;
+    height: auto;
+    align-self: center
+}
+
+#product-relations-wrap .navigation .detail {
+    align-self: center;
+    position: relative;
+    padding-right: 30px
+}
+
+#product-relations-wrap .navigation .detail svg {
+    transition: .3s ease-out
+}
+
+#product-relations-wrap .navigation .detail svg path {
+    fill: #46b555 !important
+}
+
+#product-relations-wrap .navigation li a:hover svg {
+    transform: translate(0, 20px)
+}
+
+#product-relations-wrap .navigation .arrow-down {
+    position: absolute;
+    bottom: -40px
+}
+
+#product-relations-wrap .navigation p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 30px
+}
+
+#product-relations-wrap .section-break .container>.row {
+    min-height: 471px
+}
+
+#product-relations-wrap .section-break .section-icon {
+    background: #FFF;
+    border-radius: 0 100px 100px 0;
+    padding: 20px;
+    max-width: 167px;
+    min-width: 167px
+}
+
+#summer-2021-release-\|-omnicell-page #product-relations-wrap .category-4 .section-icon {
+    padding: 20px 40px 20px 20px;
+}
+
+#product-relations-wrap .modalTrigger {
+    align-self: center;
+    width: 100%
+}
+
+#product-relations-wrap .section-break .title {
+    padding-top: 55px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%
+}
+
+#product-relations-wrap .section-break .title h2 {
+    font-size: 54px;
+    line-height: 62px;
+    color: #014003;
+    min-height: 189px
+}
+
+#product-relations-wrap .section-break .title .row {
+    width: 100%
+}
+
+#product-relations-wrap .section-break .title .row:nth-child(2) {
+    margin-top: auto
+}
+
+#product-relations-wrap .section-break .title::after {
+    content: '';
+    width: 2px;
+    background: #FFF;
+    height: calc(100% - 50px);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 25px
+}
+
+#product-relations-wrap .section-break .title .half-pill-left {
+    position: relative;
+    left: -24px;
+    top: -20px
+}
+
+#product-relations-wrap .section-break .share-btns {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+    display: none !important
+}
+
+#product-relations-wrap .section-break .share-btns li:first-child {
+    display: none
+}
+
+#product-relations-wrap .section-break .share-btns img {
+    width: 27px;
+    margin-left: 27px
+}
+
+#product-relations-wrap .section-break .share-btns li {
+    margin-bottom: 0
+}
+
+#product-relations-wrap .section-break .cover {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%
+}
+
+#product-relations-wrap .section-break .cover-wrap {
+    border-radius: 0 0 30px 0;
+    justify-content: center
+}
+
+#product-relations-wrap .section-break .cover-wrap img {
+    max-width: 100%;
+    height: auto;
+    align-self: center
+}
+
+#product-relations-wrap .name-desc {
+    margin-top: 75px
+}
+
+#product-relations-wrap .name-desc .name {
+    padding-left: 14px;
+    position: relative
+}
+
+#product-relations-wrap .name-desc .name svg {
+    position: absolute;
+    top: 20px;
+    left: -15px
+}
+
+#product-relations-wrap .cards-wrap {
+    margin-top: 50px
+}
+
+#product-relations-wrap .cards-wrap .card-item {
+    border-left: 1px solid #13801C;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%
+}
+
+#product-relations-wrap .cards-wrap .col-lg-6 {
+    margin-top: 40px
+}
+
+#product-relations-wrap .cards-wrap .card-item h3 {
+    font-size: 24px;
+    color: #014003;
+    font-weight: 200;
+    margin-bottom: 20px
+}
+
+#product-relations-wrap .cards-wrap .card-item .details {
+    font-size: 18px;
+    line-height: 26px;
+    color: #014003
+}
+
+#product-relations-wrap .cards-wrap .card-item .icon {
+    margin-bottom: 30px
+}
+
+#product-relations-wrap .action-btns {
+    margin-top: 72px
+}
+
+#product-relations-wrap .category-1 .section-break-bg {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffedbf+0,ffedbf+50,ffffff+50 */
+    background: #ffedbf;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    /* IE6-9 */
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .section-break-bg {
+    background: rgb(185, 253, 205);
+    background: -webkit-linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 50%, rgba(249, 250, 250, 1) 50%);
+    background: linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 50%, rgba(249, 250, 250, 1) 50%);
+}
+
+#product-relations-wrap .category-4 .section-break-bg {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffedbf+0,ffedbf+50,ffffff+50 */
+    background: #ffedbf;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffedbf 0%, #ffedbf 50%, #F9FAFAF9FAFA 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    /* IE6-9 */
+
+}
+
+#product-relations-wrap .category-2 .section-break-bg,
+#product-relations-wrap .category-5 .section-break-bg {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffedbf+0,ffedbf+50,ffffff+50 */
+    background: #ffedbf;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    /* IE6-9 */
+
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-2 .section-break-bg,
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-5 .section-break-bg {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffedbf+0,ffedbf+50,ffffff+50 */
+    background: #B9FDCD;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #B9FDCD 0%, #B9FDCD 50%, #F9FAFA 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #B9FDCD 0%, #B9FDCD 50%, #F9FAFA 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #B9FDCD 0%, #B9FDCD 50%, #F9FAFA 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    /* IE6-9 */
+
+}
+
+#product-relations-wrap .category-3 .section-break-bg,
+#product-relations-wrap .category-6 .section-break-bg {
+    /*background:rgb(121,234,142);*/
+    /*background:-moz-linear-gradient(90deg,rgba(121,234,142,1) 0%,rgba(121,234,142,1) 50%,rgba(249,250,250,1) 50%);*/
+    /*background:-webkit-linear-gradient(90deg,rgba(121,234,142,1) 0%,rgba(121,234,142,1) 50%,rgba(249,250,250,1) 50%);*/
+    /*background:linear-gradient(90deg,rgba(121,234,142,1) 0%,rgba(121,234,142,1) 50%,rgba(249,250,250,1) 50%);*/
+    /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e",endColorstr="#f9fafa",GradientType=1)*/
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffedbf+0,ffedbf+50,ffffff+50 */
+    background: #ffedbf;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ffedbf 0%, #ffedbf 50%, #F9FAFA 50%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    /* IE6-9 */
+}
+
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .section-break-bg,
+main#winter-2020-release-\|-omnicell--page#product-relations-wrap .category-6 .section-break-bg {
+    background: rgb(121, 234, 142);
+    background: -moz-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 50%, rgba(249, 250, 250, 1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 50%, rgba(249, 250, 250, 1) 50%);
+    background: linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 50%, rgba(249, 250, 250, 1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e", endColorstr="#f9fafa", GradientType=1)
+}
+
+#product-relations-wrap .category-1 .cover-wrap {
+    /*background:rgb(185,253,205)*/
+    background: #FFEDBF;
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .cover-wrap {
+    background: rgb(185, 253, 205);
+}
+
+#product-relations-wrap .category-4 .cover-wrap {
+    background: #ffedbf;
+}
+
+#product-relations-wrap .category-2 .cover-wrap,
+#product-relations-wrap .category-5 .cover-wrap {
+    background: #ffedbf;
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-2 .cover-wrap,
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-5 .cover-wrap {
+    background: #B9FDCD;
+}
+
+#product-relations-wrap .category-3 .cover-wrap,
+#product-relations-wrap .category-6 .cover-wrap {
+    /*background:#79EA8E*/
+    background: #FFEDBF;
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .cover-wrap,
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-6 .cover-wrap {
+    background: #79EA8E
+}
+
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .cover-wrap,
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-6 .cover-wrap {
+    background: #79EA8E
+}
+
+#product-relations-wrap .category-1 .btnx-ornament svg path,
+#product-relations-wrap .category-1 .name-desc .name svg path {
+    /*fill:#b9fdcd!important*/
+    fill: #ffc93f !important
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .btnx-ornament svg path,
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .name-desc .name svg path {
+    fill: #b9fdcd !important
+}
+
+#product-relations-wrap .category-4 .btnx-ornament svg path,
+#product-relations-wrap .category-4 .name-desc .name svg path {
+    fill: #ffedbf !important
+}
+
+#product-relations-wrap .category-2 .btnx-ornament svg path,
+#product-relations-wrap .category-5 .btnx-ornament svg path {
+    fill: #d1e2f5 !important
+}
+
+#summer-2021-release-\|-omnicell-page #product-relations-wrap .category-2 .btnx-ornament svg path,
+#summer-2021-release-\|-omnicell-page #product-relations-wrap .category-5 .btnx-ornament svg path {
+    fill: #ffc93f !important
+}
+
+#product-relations-wrap .category-2 .name-desc .name svg path,
+#product-relations-wrap .category-5 .name-desc .name svg path {
+    fill: #ffedbf !important
+}
+
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-2 .name-desc .name svg path,
+#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-5 .name-desc .name svg path {
+    fill: #3080E3 !important
+}
+
+#product-relations-wrap .category-3 .btnx-ornament svg path,
+#product-relations-wrap .category-3 .name-desc .name svg path,
+#product-relations-wrap .category-6 .btnx-ornament svg path,
+#product-relations-wrap .category-6 .name-desc .name svg path {
+    fill: #ffc93f !important
+}
+
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .btnx-ornament svg path,
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .name-desc .name svg path,
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-6 .btnx-ornament svg path,
+main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-6 .name-desc .name svg path {
+    fill: #79EA8E !important
+}
+
+#product-relations-wrap .banner-desktop img,
+#product-relations-wrap .banner-tablet img,
+#product-relations-wrap .banner-mobile img {
+    max-width: 100%
+}
+
+#product-relations-wrap .banner-desktop {
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline
+}
+
+#product-relations-wrap .banner-tablet {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    display: none;
+    padding-bottom: 65px;
+    position: relative;
+    right: -35px;
+    justify-content: flex-end;
+    align-items: baseline
+}
+
+#product-relations-wrap .banner-mobile {
+    display: none;
+    text-align: center
+}
+
+#product-relations-wrap .banner-mobile-bg {
+    padding-right: 50px
+}
+
+#product-relations-wrap .single-card-desktop {
+    display: block;
+    margin-top: 50px
+}
+
+#product-relations-wrap .single-card>img {
+    margin-bottom: 20px;
+    border-radius: 0 0 16px 0;
+    height: 240px;
+    width: auto !important
+}
+
+#product-relations-wrap .single-card h3 {
+    color: #000
+}
+
+#product-relations-wrap .single-card-tablet {
+    display: none
+}
+
+#product-relations-wrap .nav-bg-desktop {
+    display: block;
+    position: relative
+}
+
+#product-relations-wrap .nav-bg-desktop img {
+    right: 10%;
+    top: 42px;
+    position: absolute
+}
+
+#product-relations-wrap .release-history {
+    padding-left: 25%
+}
+
+#product-relations-wrap .release-history strong {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: block
+}
+
+#product-relations-wrap .release-history li {
+    padding: 0;
+    margin: 0
+}
+
+#product-relations-wrap .release-history li a {
+    font-size: 24px;
+    text-decoration: underline
+}
+
+#ajax-frame #ajax-wrapper .col-lg-4 {
+    margin: 0
+}
+
+.list--articles li.list-item--with-img a p {
+    width: calc(100% - 142px);
+    float: right
+}
+
+.podcast-content {
+    margin-top: 30px
+}
+
+.podcast-content .podcast-text {
+    margin-bottom: 30px
+}
+
+.podcast-content .podcast-speakers {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.podcast-content .podcast-speakers .speaker {
+    width: 304px;
+    margin-bottom: 30px;
+    margin-right: 40px
+}
+
+.podcast-content .podcast-speakers .speaker img {
+    max-height: 209px;
+    width: auto;
+    border-bottom-right-radius: 100px
+}
+
+.podcast-content .podcast-speakers .speaker .name {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #014003;
+    font-weight: 300;
+    padding: 1rem .5rem .5rem 0;
+    font-family: unitext, Arial;
+    margin-bottom: 0
+}
+
+.podcast-content .podcast-speakers .speaker p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #1c1c1c;
+    padding-right: .5rem;
+    padding-left: 0;
+    font-family: unitext, Arial;
+    font-weight: 400
+}
+
+.rounded-img-right {
+    border-bottom-right-radius: 100px
+}
+
+.hero__banner-message {
+    margin-top: -50px;
+    margin-bottom: 50px
+}
+
+#population-health-page .button.button--md {
+    min-height: auto
+}
+
+#population-health-page .tray.tray--flush.tray--button.tray--light {
+    padding: 50px 0
+}
+
+#ajax-frame #ajax-wrapper .col-lg-4 {
+    margin: 0
+}
+
+#nursing-page .featured-product img,
+#physicians-page .featured-product img,
+#pharmacist-page .featured-product img {
+    max-width: 100%
+}
+
+#leadership-page .hero--variant-5 .hero__banner image {
+    transform: scale(.922562) translateY(44%) !important
+}
+
+#home__page .featured-card {
+    margin-bottom: 35px
+}
+
+footer .globalfooter::before {
+    background-color: transparent
+}
+
+.pill-vert {
+    -webkit-mask-image: url(/Content/img/mask_vert.svg);
+    mask-image: url(/Content/img/mask_vert.svg)
+}
+
+#medication-adherence-page .scrollflow .scrollflow__panel img {
+    transform: scale(1)
+}
+
+#podcast-page #featured-events {
+    margin-top: 0
+}
+
+#podcast-page .basicheader {
+    margin-bottom: 0
+}
+
+#podcast-page .rssLabel {
+    margin-bottom: 20px
+}
+
+#podcast-page .contentbox h3 {
+    font-size: 36px;
+    line-height: 1.28;
+    font-weight: 200
+}
+
+.podcast-iframe {
+    height: 200px !important
+}
+
+.basicheader--variant-2.green-variant {
+    background: #0b241a
+}
+
+.basicheader--variant-2.green-variant .basicheader__column h1,
+.basicheader--variant-2.green-variant .h3 {
+    color: #fff
+}
+
+.basicheader--variant-2.green-variant .third-image {
+    display: block;
+    position: absolute;
+    width: 220px;
+    height: 110px;
+    z-index: 1;
+    bottom: -40%;
+    right: -45%
+}
+
+.basicheader--variant-2.green-variant .basicheader__fragment image {
+    transform-origin: bottom left;
+    transform: translate(0, 20%) scale(.7)
+}
+
+.podcast-disclaimer {
+    padding-bottom: 100px
+}
+
+
+#events-and-webinars-page .basicheader--variant-2 .basicheader__banner {
+    z-index: 888;
+}
+
+#events-and-webinars-page .basicheader--variant-2 .basicheader__bauble--1,
+#events-and-webinars-page .basicheader--variant-2 .basicheader__bauble--2,
+#events-and-webinars-page .basicheader--variant-2 .basicheader__bauble--3 {
+    z-index: 0;
+    -webkit-transform: translate3d(0,0,0) !important;
+    -moz-transform: translate3d(0,0,0) !important;
+    transform: translate3d(0,0,0) !important;
+}
+
+#events-and-webinars-page .basicheader--variant-2 .basicheader__background:not(:last-of-type) {
+    z-index: 888;
+}
+
+#events-and-webinars-page .basicheader--variant-2 .basicheader__background:last-of-type {
+    z-index: 0;
+}
+
+
+#podcast-page .body-content {
+    width: calc(100% - 142px);
+    margin-left: 142px;
+    margin-top: 30px
+}
+
+@media only screen and (max-width:1920px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: calc(1200px - 23%);
+    }
+
+    #bbcdBanner .b-flex.b-buttons {
+        width: 21%;
+    }
+}
+
+@media only screen and (max-width:1770px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: 22%;
+    }
+}
+
+@media only screen and (max-width:1760px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: calc(1200px - 23%);
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:1620px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: 24%;
+    }
+}
+
+@media only screen and (max-width:1536px) {
+    #summer-2021-release-\|-omnicell-page .navigation {
+        padding-top: 49px;
+    }
+}
+
+@media only screen and (max-width:1460px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: calc(434px - 3%)
+    }
+}
+
+@media (max-width:1440px) {
+    .podcast-content .podcast-speakers .speaker {
+        width: 48%;
+        margin-bottom: 30px;
+        margin-right: unset
+    }
+
+    .podcast-content .podcast-speakers {
+        justify-content: space-between
+    }
+}
+
+@media(min-width:1401px) {
+    .mainnav a:first-of-type {
+        width: 155px;
+    }
+
+    .mainnav a {
+        width: 113px;
+    }
+
+    .mainnav a:nth-child(3) {
+        width: 136px;
+    }
+
+    .mainnav a:first-of-type:hover {
+        width: 155px;
+    }
+
+    .mainnav a:nth-child(3):hover {
+        width: 136px;
+    }
+    #blog-page .hero.hero--variant-4 {
+    	max-height: calc(100vh - 84px);
+    }
+    #podcast-page .basicheader__background .container-fluid {
+    	overflow: hidden;
+    }
+    
+    #podcast-page .basicheader--variant-2 .basicheader__fragment {
+    	left: 4px;
+    }
+    
+    #podcast-page .basicheader--variant-2.green-variant .basicheader__fragment image {
+    	transform: translate(0, 10%) scale(.5);
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
+    #blog-page .hero.hero--variant-4 {
+    	max-height: calc(100vh - 50px);
+    }
+    
+    #summer-2021-release-\|-omnicell-page .navigation {
+        padding-top: 104px;
+    }
+
+    #autonomous-pharmacy-overview-page .scrollflow.tray.tray--flush.tray--light {
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width:1360px) {
+    #narrative__page .hero.hero--variant-2 {
+        max-height: calc(100vh - 58px);
+    }
+}
+
+@media(min-width:1312px) {
+    .mainnav a {
+        font-size: 14px
+    }
+}
+
+@media (max-width:1300px) {
+    #product-relations-wrap .section-break .section-icon {
+        height: 100%
+    }
+}
+
+@media (max-width:1280px) {
+    .basicheader--variant-2.green-variant .basicheader__fragment image {
+        transform-origin: bottom left;
+        transform: translate(-12%, 20%) scale(.7)
+    }
+}
+
+@media only screen and (max-width:1242px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: 31%;
+    }
+}
+
+@media (min-width:1200px) {
+    #product-relations-wrap .container {
+        max-width: 1496px;
+        width: calc(100vw - 4rem)
+    }
+}
+
+@media only screen and (max-width:1193px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: 33%;
+    }
+}
+
+@media (min-width:1259px) {
+    .product-right-rail .button {
+        width: 92%;
+    }
+}
+
+@media (min-width:1281px) {
+    .product-right-rail .button {
+        width: 96.5%;
+    }
+
+    .product-right-rail .stick {
+        width: auto !important;
+    }
+}
+
+@media (min-width:1056px) {
+    .hero__content {
+        width: 100%;
+    }
+
+    .hero__column {
+        padding-left: 0;
+    }
+
+    .product-page-page-nav-wrapper h2 {
+        font-size: 36px;
+        line-height: 46px;
+        width: 90%;
+    }
+
+    #myomnicell-page .tray.tray--flush.tray--benefits-block-2.tray--light {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+
+    .tray--video-modal .row .col-md-9 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important
+    }
+
+    .meganav--tiled .meganav__group:last-of-type {
+        background: rgb(7, 47, 17);
+    }
+
+    #pt-newsletter .card-header-image-wrapper img,
+    #pt-newsletter .card-header-image-wrapper {
+        min-height: 273px;
+    }
+
+    .product-page-page-nav-wrapper h1,
+    .product-page-page-nav-wrapper label {
+        font-size: 36px;
+        line-height: 46px;
+        width: 90%;
+    }
+
+    .tray--video-modal .row .col-md-9 {
+        flex: 0 0 50% !important;
+        max-width: 50% !important
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1.tray--light .order-lg-2 {
+        display: block
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1.tray--light .order-lg-2 {
+        flex: 0 0 66.66667%;
+        max-width: 66.66667%
+    }
+
+    #workflow-automation-page #narrative__page div:nth-child(8) .col-lg-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    #xr2-central-pharmacy-dispensing-service-page .tray.tray--content-block-1.tray--dark.tray--flush-bottom {
+        margin-top: 60px;
+    }
+
+    #population-health-page .scrollflow__panel {
+        height: 130vh;
+    }
+
+    #solutions-nav div {
+        padding-left: 0;
+        vertical-align: top;
+        display: inline-block;
+        padding-bottom: 0;
+    }
+
+    .mainnav a {
+        font-weight: 300;
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(-n+2) {
+        background: rgba(207, 247, 187, .07)
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(n+3) {
+        background:
+            /*#1e3a2e*/
+            rgb(7, 47, 17)
+    }
+
+    .meganav--tiled .meganav__group:last-of-type {
+        background: rgba(28, 28, 28, .3)
+    }
+
+    .meganav--tiled #AllResources,
+    .meganav--tiled #empty {
+        background-color: rgba(1, 64, 3, 1);
+    }
+
+    .meganav--tiled #AllResources,
+    .meganav--tiled #empty {
+        background-color: rgba(1, 64, 3, 1);
+    }
+
+    .meganav--tiled #AllResources .meganav__link:hover svg path {
+        stroke: unset;
+    }
+
+    .meganav--tiled {
+        grid-template-rows: 50%;
+        grid-template-areas: "a01 a03 a05 a07""a02 a04 a06 a08"
+    }
+
+    .meganav--tiled {
+        grid-template-rows: 50%;
+        grid-template-areas: "a01 a03 a05 a07""a02 a04 a06 a08"
+    }
+
+    #Video {
+        background-color: rgba(7, 47, 17, 1);
+    }
+
+    #solutions-nav .icon-nav:hover,
+    #solutions-nav a:hover .icon-nav,
+    #solutions-nav a .icon-nav {
+        background-color: transparent !important;
+    }
+
+    #solutions-nav a:hover .icon-nav svg .st0 {
+        stroke: #fff;
+    }
+
+    #solutions-nav.meganav--tiled {
+        grid-template-rows: 63%;
+        grid-template-columns: 25% 50% 25%;
+        background-color: rgba(7, 47, 17, 1);
+    }
+
+    #solutions-nav .solution-center {
+        grid-template-areas: "a01 a04""a02 a05""a03 a06";
+        grid-template-rows: 51% 53% 57%;
+        -ms-grid-rows: 51% 53% 57%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        -ms-grid-columns: 50% 50%;
+        display: -ms-grid;
+
+    }
+
+    #solutions-nav .solution-center a {
+        padding: 1rem;
+    }
+
+    #solutions-nav .solution-left div {
+        background-color: #014003;
+    }
+
+    #solutions-nav .solution-center div {
+        background-color: #072F11;
+    }
+
+    #solutions-nav .solution-right-side div {
+        background-color:
+            /*#0B241A*/
+            #072F11;
+    }
+
+    #solutions-nav .solution-right-side {
+        background-color: #072F11;
+    }
+
+    .meganav__group:nth-last-child(-n+4) {
+        /*background-color: rgba(207, 247, 187, .1)*/
+        background-color: rgb(1, 64, 3);
+    }
+
+    .meganav__group:nth-last-child(-n+3) {
+        /* background-color: rgba(207, 247, 187, .07); */
+        background-color: rgb(1, 64, 3);
+    }
+
+    .meganav__group:nth-last-child(-n+2) {
+        background-color: rgba(7, 47, 17, 1)
+    }
+
+    .meganav__group:nth-last-child(-n+1) {
+        background-color:
+            /*rgba(28, 28, 28, .25)*/
+            rgba(7, 47, 17, 1)
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(1) {
+        grid-area: a01
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(2) {
+        grid-area: a02
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(3) {
+        grid-area: a03
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(4) {
+        grid-area: a04
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(5) {
+        grid-area: a05
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(6) {
+        grid-area: a06
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(7) {
+        grid-area: a07
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(8) {
+        grid-area: a08
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(9) {
+        grid-area: a09
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(10) {
+        grid-area: a010
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(-n+2) {
+        background: rgba(207, 247, 187, .07)
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(n+3) {
+        background: rgb(7, 47, 17);
+    }
+
+    .meganav--tiled .meganav__group:last-of-type {
+        background: rgba(28, 28, 28, .3)
+    }
+
+    /* .meganav--tiled .meganav__group:nth-of-type(even) {
+        padding: 0 10px 0 10px
+    }*/
+
+
+    .meganav--tiled .meganav__item {
+        padding: 35px 0 0 0
+    }
+}
+
+@media (max-width:1055px) {
+    #featured-events .row div:nth-child(5),
+#featured-events .row div:nth-child(8),
+#featured-events .row div:nth-child(11),
+#featured-events .row div:nth-child(14){
+    	margin-left: 0;
+    }
+    #featured-events .row div.col-lg-3 {
+    	width: 50%;
+    }
+    #featured-events .row div:first-child {
+    	width: 100%;
+    }
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) div {
+    	z-index: 99;
+    }
+    #Events,
+    #Webinars{
+    	padding: 2rem 1rem 2rem 2rem;
+    }
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) {
+    	height: 70vh;
+    	grid-template-columns: 0 50%;
+    	grid-template-rows: 28% 23% 23%;
+    }
+    
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4)::after {
+    	content: "";
+    	display: block;
+    	position: absolute;
+    	bottom: 0;
+    	width: 100%;
+    	height: 50px;
+    	background: rgb(7, 47, 17);
+    }
+    
+    #wrapper-container header .megamenu__col nav:nth-child(2) {
+    	display: grid;
+    	grid-template-columns: 50% 50%;
+    	grid-template-rows: 50vh 50vh;
+    	grid-template-areas: "a01 a02""a03 a04""a05 a07""a06 a08";
+    }
+    
+    #wrapper-container header .megamenu__col nav:nth-child(2) div{
+        width: 100%;
+        padding:2rem 1rem 2rem 1rem;
+    }
+    
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(1) {
+    	grid-area: a01;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(2) {
+    	grid-area: a02;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(3) {
+    	grid-area: a03;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(4) {
+    	grid-area: a04;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(5) {
+    	grid-area: a05;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(6) {
+    	grid-area: a06;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(7) {
+    	grid-area: a07;
+    }
+    #wrapper-container header .megamenu__col nav:nth-child(2) .meganav__group:nth-child(8) {
+    	grid-area: a08;
+    }
+    
+    #wrapper-container header .megamenu__col nav:nth-child(2) div#ProductSupport {
+        width:auto;
+    }
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap.wrapper .category>div {
+        margin-top: 0;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .banner-tablet {
+        padding-bottom: 20px;
+    }
+
+    #summer-2021-release-\|-omnicell-page .single-card img {
+        margin-bottom: 30px;
+    }
+
+    #summer-2021-release-\|-omnicell-page a.more-link {
+        display: none;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-4 .cover-wrap {
+        background: #ffedbf;
+    }
+
+    #summer-2021-release-\|-omnicell-page .banner-tablet img {
+        margin-right: -22px;
+    }
+
+    .x5353 #home__page .featured-card {
+        margin-bottom: 0;
+    }
+
+    div#AllResources {
+        padding-top: 60px;
+    }
+
+    div#Leadership {
+        padding-top: 3.5rem;
+    }
+
+    header .meganav--tiled .meganav__group:nth-of-type(3) {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    header .meganav--tiled .meganav__group:nth-of-type(4) {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    div#IntheNews {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    header .meganav--tiled .meganav__group:nth-of-type(n+3) {
+        background: rgb(7, 47, 17);
+    }
+
+    .meganav__group:nth-last-child(-n+1) {
+        background-color: #072F11;
+    }
+
+    .meganav__group:nth-last-child(-n+2) {
+        background-color: #072F11;
+    }
+
+    .meganav.meganav--4up.MeganavGroup1up {
+        display: inline-block;
+    }
+
+    .meganav.meganav--4up.MeganavGroup1up:nth-child(3),
+    .meganav.meganav--4up.MeganavGroup1up:nth-child(4) {
+        background: rgb(7, 47, 17);
+    }
+
+    .meganav--3up-alt-1 .meganav__group:first-of-type .meganav__item {
+        max-width: 100%;
+    }
+
+    /*#LeadersinPharmacy {*/
+    /*    background: rgb(7, 47, 17);*/
+    /*    padding-left: 1rem;*/
+    /*}*/
+
+    .meganav.meganav--4up.MeganavGroup1up div {
+        display: inline-block;
+        clear: both;
+        width: 100%;
+        min-height: 168px;
+        line-height: normal;
+    }
+
+    .meganav.meganav--4up.MeganavGroup1up div a {
+        /* min-height: 58px; */
+        /*height: 108px;*/
+    }
+
+    .meganav.meganav--4up.MeganavGroup1up div a .meganav__caption {
+        line-height: normal;
+        height: auto;
+    }
+
+    .meganav {
+        background: rgba(1, 64, 3, 1);
+    }
+
+    .row.megamenu__row .meganav--tiled #empty.meganav__group {
+        display: none;
+    }
+    
+    .meganav--tiled #PressReleases.meganav__group,
+    .meganav--tiled #IntheNews.meganav__group {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    #myOmnicell {
+        padding-left: 14px;
+        padding-top: 0;
+    }
+
+    #CustomerStories {
+        background-color: rgba(1, 64, 3, 1);
+    }
+
+    #ProfilesinLeadership,
+    #ProductSupport,
+    #ProfessionalServices {
+        width: 49%;
+        margin: 0;
+        padding: 20px 0 0 14px;
+        background-color: rgba(7, 47, 17, 1);
+    }
+
+    #Customers svg,
+    #ForInvestors svg,
+    #OfficeLocations svg,
+    #ProductBrochure svg {
+        fill: transparent;
+    }
+
+    #ProfessionalServices,
+    #myOmnicell,
+    #ProductSupport,
+    #OfficeLocations,
+    #Video {
+        background-color: rgba(7, 47, 17, 1);
+    }
+
+    #solutions-nav .solution-left div a,
+    #solutions-nav .solution-right-side div a,
+    #solutions-nav .solution-center div a {
+        padding: 22px 1rem;
+        padding-bottom: 40px;
+    }
+
+    #solutions-nav {
+        display: block;
+
+    }
+
+    #solutions-box-9 {
+        padding-left: 12px;
+    }
+
+
+    #solutions-nav .icon-nav:hover,
+    #solutions-nav a:hover .icon-nav,
+    #solutions-nav a .icon-nav {
+        background-color: transparent !important;
+    }
+
+    #solutions-nav a:hover .icon-nav svg .st0 {
+        stroke: #fff;
+    }
+
+    #solutions-nav.meganav--tiled {
+        grid-template-rows: 60%;
+        grid-template-columns: 25% 50% 25%;
+        background-color: rgba(7, 47, 17, 1);
+    }
+
+    #solutions-nav .solution-center {
+        display: block;
+        background-color: #072F11;
+    }
+
+    #solutions-nav .solution-center a {
+        padding: 1rem;
+    }
+
+    #solutions-nav .solution-left {
+        margin-top: 3px;
+        display: inline-block;
+        width: 100%;
+        background-color: rgb(1, 64, 3);
+        padding-left: 11px;
+    }
+
+    #solutions-nav .solution-left div {
+        background-color: #014003;
+        display: inline-block;
+        width: 49%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: -5px;
+    }
+
+    #solutions-nav .solution-center div {
+        background-color: #072F11;
+        display: inline-block;
+        width: 48%;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 10px;
+        padding-right: 8px;
+    }
+
+    #solutions-nav .meganav__caption {
+        height: auto;
+    }
+
+    #solutions-nav .solution-right-side div {
+        background-color: #072F11;
+        display: inline-block;
+        width: 48%;
+        padding-top: 0;
+        padding-bottom: -4px;
+        /* position: relative; */
+    }
+
+    #solutions-nav .solution-right-side {
+        background-color: #072F11;
+        display: block;
+    }
+
+    #health-system-page .button.button--text-top {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    #terms-page #vpm-table p,
+    #terms-page #vpm-table p a,
+    #terms-page #vpm-table span,
+    #terms-page #vpm-table a,
+    #terms-page #vpm-table p span {
+        color: #1c1c1c !important;
+    }
+
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-2 .section-break-bg,
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-5 .section-break-bg {
+        background: #B9FDCD;
+        background: -moz-linear-gradient(left, #B9FDCD 0%, #B9FDCD 84%, #F9FAFA 50%);
+        background: -webkit-linear-gradient(left, #B9FDCD 0%, #B9FDCD 84%, #F9FAFA 50%);
+        background: linear-gradient(to right, #B9FDCD 0%, #B9FDCD 84%, #F9FAFA 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+    }
+
+    main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .section-break-bg,
+    main#winter-2020-release-\|-omnicell--page#product-relations-wrap .category-6 .section-break-bg {
+        background: rgb(121, 234, 142);
+        background: -moz-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 84%, rgba(249, 250, 250, 1) 50%);
+        background: -webkit-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 84%, rgba(249, 250, 250, 1) 50%);
+        background: linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 84%, rgba(249, 250, 250, 1) 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e", endColorstr="#f9fafa", GradientType=1);
+    }
+
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .section-break-bg {
+        background: rgb(185, 253, 205);
+        background: -webkit-linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 84%, rgba(249, 250, 250, 1) 50%);
+        background: linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 84%, rgba(249, 250, 250, 1) 50%);
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(5),
+    .meganav--tiled .meganav__group:nth-of-type(7) {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    .megamenu__col {
+
+        height: 685px;
+    }
+
+    #product-relations-wrap .single-card>img {
+        height: auto
+    }
+
+    #product-relations-wrap .container {
+        max-width: 100%;
+        width: calc(100vw - 6rem)
+    }
+
+    #product-relations-wrap .single-card {
+        padding-right: 40px
+    }
+
+    #product-relations-wrap .navigation li {
+        width: 100%
+    }
+
+    #product-relations-wrap .banner-desktop {
+        display: none
+    }
+
+    #product-relations-wrap .banner-tablet {
+        display: flex
+    }
+
+    #product-relations-wrap .single-card-desktop {
+        display: none
+    }
+
+    #product-relations-wrap .single-card-tablet {
+        display: flex
+    }
+
+    #product-relations-wrap .nav-bg-desktop {
+        display: none
+    }
+
+    #product-relations-wrap .btnx-ornament {
+        margin-left: 0
+    }
+
+    #product-relations-wrap .intro-products-releases h1 {
+        width: 100%
+    }
+
+    #product-relations-wrap .section-break .title {
+        padding-bottom: 0
+    }
+
+    #product-relations-wrap .section-break .title h2 {
+        font-size: 39px;
+        line-height: 49px
+    }
+
+    #product-relations-wrap .section-break .title h2 {
+        min-height: auto
+    }
+
+    #product-relations-wrap .section-break .section-icon {
+        height: auto
+    }
+
+    #product-relations-wrap .category-4 .section-break-bg {
+        /*background:rgb(185,253,205);*/
+        /*background:-moz-linear-gradient(90deg,rgba(185,253,205,1) 0%,rgba(185,253,205,1) 70%,rgba(249,250,250,1) 70%);*/
+        /*background:-webkit-linear-gradient(90deg,rgba(185,253,205,1) 0%,rgba(185,253,205,1) 70%,rgba(249,250,250,1) 70%);*/
+        /*background:linear-gradient(90deg,rgba(185,253,205,1) 0%,rgba(185,253,205,1) 70%,rgba(249,250,250,1) 70%);*/
+        /*filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#b9fdcd",endColorstr="#f9fafa",GradientType=1)*/
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b9fdcd", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap #PointofCare.category-1 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+    }
+
+    #product-relations-wrap .category-2 .section-break-bg,
+    #product-relations-wrap .category-5 .section-break-bg {
+        background: rgb(209, 226, 245);
+        background: -moz-linear-gradient(90deg, rgba(209, 226, 245, 1) 0%, rgba(209, 226, 245, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, rgba(209, 226, 245, 1) 0%, rgba(209, 226, 245, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, rgba(209, 226, 245, 1) 0%, rgba(209, 226, 245, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d1e2f5", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-2 .section-break-bg,
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-5 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+    }
+
+    #product-relations-wrap .category-3 .section-break-bg,
+    #product-relations-wrap .category-6 .section-break-bg {
+        background: rgb(121, 234, 142);
+        background: -moz-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 70%, rgba(249, 250, 250, 1) 70%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-3 .section-break-bg,
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-6 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+    }
+
+    .mt-220 {
+        margin-top: 150px
+    }
+
+    #product-relations-wrap .name-desc .name h2,
+    #product-relations-wrap #signup h2 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-right: 15px
+    }
+
+    #product-relations-wrap .name-desc .description {
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    #product-relations-wrap #signup .button {
+        width: 60%
+    }
+
+    #product-relations-wrap .name-desc .name svg {
+        top: 4px
+    }
+
+    #product-relations-wrap #signup h2 {
+        width: 100%
+    }
+
+    #product-relations-wrap #signup {
+        margin-top: 100px !important
+    }
+
+    #product-relations-wrap .intro-products-releases h1 {
+        margin-top: 80px
+    }
+
+    #intelligence-page .colorswitch--hidden {
+        opacity: 1;
+    }
+
+    #pt-newsletter-article .tray-sign-1 .pill--variant-horz--banner-1 {
+        left: -75%;
+    }
+
+    #pt-newsletter-article .pill--variant-horz.pill--variant-large .pill--variant-horz--banner-1 g {
+        -webkit-clip-path: url(#pill--horizontal--wide);
+        clip-path: url(#pill--horizontal--wide);
+        transform: scale(.95);
+        /* overflow: hidden; */
+        /* max-width: 75%; */
+    }
+
+    #pt-newsletter-article .pill--variant-horz--banner-1 image {
+        transform: translate(206px, -35px) scale(.9, .75);
+    }
+
+    #pt-newsletter-article .tray-sign-1 .pill--variant-horz--banner-1 {
+        height: 430px;
+        top: -220px;
+    }
+
+    #pt-newsletter-article .tray.tray--flush-bottom.tray-sign-1.tray--dark {
+        padding-top: 35px;
+        margin-top: 200px;
+    }
+
+    #pt-newsletter-article .tray-sign-1 .pill--variant-horz {
+        margin-bottom: 0;
+    }
+
+    div#Services {
+        background: transparent;
+    }
+
+    .tray--content-block-10 .container-fluid>.row>.col-12:last-child {
+        display: none
+    }
+
+    .meganav__link #Art {
+        margin-left: 4px;
+        margin-top: 3px
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .cards-wrap {
+        margin-top: 0;
+    }
+
+    main#summer-2021-release-\|-omnicell-page .single-card img {
+        height: auto;
+    }
+
+    #summer-2021-release-\|-omnicell-page .navigation {
+        padding-top: 0;
+    }
+
+    div#OurMission {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .meganav--tiled {
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 37% 31.5% 31.5%;
+        grid-template-areas: "a01 a01 a02 a02"
+            "a03 a03 a05 a05"
+            "a07 a07 a08 a08"
+            "a04 a04 a06 a06";
+    }
+
+    .tray--content-block-10 .container-fluid>.row>.col-12:last-child {
+        display: none
+    }
+
+    #our-mission-page .tray--content-block-10 .d-none {
+        display: block !important
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1.tray--light .order-lg-2 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%
+    }
+
+    .basicheader--variant-2.green-variant .third-image {
+        display: block;
+        position: absolute;
+        width: 220px;
+        height: 110px;
+        z-index: 1;
+        bottom: -40%;
+        right: 50%;
+        margin-right: -110px
+    }
+
+    .hero__banner-message {
+        margin-top: 0;
+        margin-bottom: 0
+    }
+
+    .product-right-rail .button {
+        width: 90.5%;
+    }
+
+    #xr2-central-pharmacy-dispensing-service-page .scrollflow__panel {
+        height: 90vh;
+    }
+
+    #leadership-page .hero--variant-5 .hero__banner image {
+        transform: scale(.666) translateY(30%) !important;
+    }
+}
+
+@media only screen and (max-width:1054px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: 100%;
+    }
+
+    #bbcdBanner {
+        padding: 20px;
+    }
+
+    #bbcdBanner {
+        height: auto;
+    }
+}
+
+@media (min-width:1532px) {
+    .product-right-rail .button {
+        width: 100%;
+    }
+
+    .product-right-rail .stick {
+        width: 234.667px !important;
+    }
+}
+
+@media (min-width:1130px) {
+    /*.product-right-rail .button {*/
+    /*    width: 91.5%;*/
+    /*}*/
+}
+
+
+@media (min-width:768px) {
+    #product-relations-wrap .banner-mobile-bg {
+        background-image: none !important
+    }
+}
+
+@media (max-width:767px) {
+    .contentbox h1 {}
+
+    section.masked--hero.enabled--subbanner {
+        height: auto !important;
+        max-height: unset;
+        padding-bottom: 0;
+        margin-bottom: 100px !important;
+    }
+
+    #physicians-page #narrative__page>div:nth-child(7) {
+        margin-top: -40px;
+    }
+
+    #product-relations-wrap .contentbox h2 {
+        font-size: 28px;
+        line-height: 34px
+    }
+
+    #product-relations-wrap .intro-products-releases .container {
+        width: 100%
+    }
+
+    #product-relations-wrap .banner-mobile-bg {
+        padding-right: 0;
+        padding: 0 2rem
+    }
+
+    #product-relations-wrap .banner-tablet,
+    #product-relations-wrap .banner-desktop {
+        display: none
+    }
+
+    #product-relations-wrap .banner-mobile {
+        display: block
+    }
+
+    #product-relations-wrap .banner-mobile-bg {
+        background-repeat: no-repeat;
+        background-position: 115% -10px;
+        background-size: 36%
+    }
+
+    #product-relations-wrap .nav-bg-tablet {
+        display: none
+    }
+
+    #product-relations-wrap .single-card {
+        padding-right: 0
+    }
+
+    #product-relations-wrap .category-1 .section-break-bg,
+    #product-relations-wrap .category-4 .section-break-bg {
+        background: rgb(185, 253, 205);
+        background: -moz-linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b9fdcd", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap #PointofCare.category-1 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-1 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffedbf", endColorstr="#ffedbf", GradientType=1)
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-4 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b9fdcd", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #product-relations-wrap .category-2 .section-break-bg,
+    #product-relations-wrap .category-5 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d1e2f5", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #product-relations-wrap .category-3 .section-break-bg,
+    #product-relations-wrap .category-6 .section-break-bg {
+        background: rgb(121, 234, 142);
+        background: -moz-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e", endColorstr="#f9fafa", GradientType=1)
+    }
+
+    #product-relations-wrap .section-break .container {
+        width: calc(100vw - 2rem)
+    }
+
+    #product-relations-wrap .section-break .title::after {
+        display: none
+    }
+
+    #product-relations-wrap .section-break .title {
+        padding-right: 0;
+        border-bottom: 2px solid #FFF
+    }
+
+    #product-relations-wrap .section-break .title .half-pill-left {
+        left: -4px
+    }
+
+    #product-relations-wrap .section-break .section-icon {
+        margin-left: 20px
+    }
+
+    #product-relations-wrap .navigation {
+        margin-top: 70px
+    }
+
+    #product-relations-wrap .btnx-ornament {
+        display: none
+    }
+
+    .mt-220 {
+        margin-top: 80px
+    }
+
+    #product-relations-wrap .container {
+        width: calc(100vw - 2rem)
+    }
+
+    #product-relations-wrap #signup .button {
+        width: 100%
+    }
+
+    #product-relations-wrap .banner-mobile-bg {
+        padding-right: 0
+    }
+
+    #product-relations-wrap .cards-wrap {
+        margin-top: 0
+    }
+
+    #product-relations-wrap .name-desc .name h2 {
+        font-size: 32px;
+        line-height: 38px;
+        padding-left: 0;
+        margin-left: -15px
+    }
+
+    #product-relations-wrap #signup h2 {
+        margin-left: 0;
+        font-size: 32px;
+        line-height: 38px;
+        padding-left: 0
+    }
+
+    #product-relations-wrap .name-desc .name svg {
+        width: 12px;
+        left: -2px;
+        top: -20px
+    }
+
+    #product-relations-wrap .section-break .section-icon {
+        padding: 10px;
+        max-width: 105px;
+        min-width: 105px
+    }
+
+    .megamenu__col .meganav:nth-child(5).meganav--tiled {
+        grid-template-areas: "a01 a02""a03 a04""a05 a07""a06 a08"
+    }
+    
+        /*.megamenu__col .meganav:nth-child(5).meganav--tiled .meganav__group:nth-child(6),.megamenu__col .meganav:nth-child(5).meganav--tiled .meganav__group:nth-child(8){
+        display:none
+    }*/
+
+    .meganav--tiled .meganav__group:nth-of-type(1),
+    .meganav--tiled .meganav__group:nth-of-type(2),
+    .meganav--tiled .meganav__group:nth-of-type(3),
+    .meganav--tiled .meganav__group:nth-of-type(4),
+    .meganav--tiled .meganav__group:nth-of-type(5),
+    .meganav--tiled .meganav__group:nth-of-type(6),
+    .meganav--tiled .meganav__group:nth-of-type(7),
+    .meganav--tiled .meganav__group:nth-of-type(8) {
+        padding: 30px;
+    }
+
+    #LeadersinPharmacy {
+        padding-left: 0;
+    }
+}
+
+@media (max-width:766px) {
+    .meganav--tiled {
+        grid-template-columns: 50% 50%;
+    }
+
+    div#Collateral,
+    div#Video {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+}
+
+@media (min-width: 672px) {
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) svg {
+    	display: block;
+    }
+    #pt-leadership-detail .contentbox h1 {
+        margin-bottom: 0;
+    }
+
+    #pt-leadership-detail .omni-circle.omni-circle--profile-image {
+        width: 236px;
+        height: 172px;
+        overflow: visible;
+    }
+
+    #pt-leadership-detail .bio-text p {
+        line-height: 1.625rem;
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    #pt-leadership-detail .bio-header .position {
+        font-size: 1.5rem;
+        font-weight: 200;
+        line-height: 1.33;
+        color: #001000;
+    }
+
+    #pt-leadership-detail .bio-header .position {
+        text-transform: capitalize;
+    }
+    
+    #pt-newsletter-article .tray--image-header .img-wrapper {
+        margin-left: -60%;
+    }
+}
+
+@media(max-width:671px) {
+    .intern_name {
+    	padding-left: 20px !important;
+    }
+    #home__page .hero__content {
+    	padding: 60px 0px !important;
+    }
+    #home-page .hero .contentbox.light {
+    	padding-left: 0;
+    }
+    #home-page .hero .contentbox.light .button.button--outline.button--curve-bottom {
+    	padding-left: 0;
+    }
+    #pt-newsletter-article .border-bottom .col-12.col-md-3.order-2.order-md-1 {
+        margin-top: 30px;
+    }
+    #home-page .hero__column {
+    	padding-bottom: 0;
+    }
+    
+    #home-page .hero .hero__background.hero__background--full .container-fluid {
+    	overflow: visible;
+    }
+    #home-page .hero--variant-3 .hero__banner-position {
+    	margin-bottom: 120px;
+    }
+    
+     #home-page .hero__background .row > .col, .hero__background .row > [class*="col-"] {
+    	padding: 0;
+    }
+    #home-page    .hero--variant-3 .hero__bauble {
+    	bottom: 4%;
+    }
+
+    div#Blog, 
+    #Webinars, 
+    #Events {
+    	padding: 2rem 1rem 2rem 1rem;
+    }
+    #Podcast {
+    	padding: 2rem 1rem 2rem 1rem;
+    }
+    #blog-page .hero__content h1 {
+    	margin-bottom: 30px;
+    }
+    #physicians-page .tray.tray--button.tray--dark {
+    	padding-bottom: 0;
+    }
+    
+    #physicians-page .tray.tray--button.tray--light .solutions-item:last-child {
+    	border-bottom: 0;
+    	padding-bottom: 0;
+    }
+    .hero__column {
+        padding-left: 8px;
+    }
+
+    .hero>div:nth-child(3) .container-fluid {
+        width: 100%;
+    }
+
+    #narrative__page .hero--variant-5 .hero__banner image {
+        transform: scale(1) translateY(0) !important;
+    }
+
+    #home-page .hero.hero--variant-2 .contentbox.light div:first-of-type {
+        padding-left: 0 !important;
+    }
+
+    #home-page .hero__column {
+        padding-top: 4rem;
+    }
+
+    #leadership-page .hero__content {
+        margin-top: 40px;
+    }
+    #pt-newsletter .card {
+        padding-left: 16px;
+    }
+
+    #pt-newsletter .pagination-tray {
+        flex-direction: column;
+    }
+
+    #pt-newsletter .pagination-tray .contentbox .results {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #pt-newsletter .pagination-tray .pagination {
+        width: 100%;
+    }
+
+    #blog-page .hero--variant-4 .hero__background:not(last-of-type),
+    #blog-page .hero--variant-4 .hero__banner {
+        margin-top: -50px;
+    }
+
+    #pt-product {
+        padding-top: 18px;
+    }
+
+    #all-products-page #narrative__page .body-copy .row .col-12 p:first-child {
+        padding-top: 30px;
+    }
+
+    #training-page#narrative__page .colorswitch .hero--variant-1>div:nth-child(3) .container-fluid {
+        width: 100%;
+    }
+
+    #intelligence-page #narrative__page .colorswitch .hero--variant-1>div:nth-child(3) .container-fluid {
+        width: 100%;
+    }
+
+    #central-pharmacy-iv-compounding-page #narrative__page .colorswitch .hero--variant-1>div:nth-child(3) .container-fluid {
+        width: 100%;
+    }
+
+    #it-management-page #narrative__page .colorswitch .body-large {
+        padding-bottom: 0;
+    }
+
+    #it-management-page #narrative__page .colorswitch>div:nth-child(3) .tray {
+        padding-bottom: 0;
+    }
+
+    #it-management-page #narrative__page .colorswitch>div:nth-child(4) .tray {
+        padding-top: 0;
+    }
+
+    #retail-pharmacy-page #narrative__page>div:nth-child(2) .col-1 {
+        margin-bottom: 0;
+    }
+
+    #retail-pharmacy-page .tray--button .solutions-item:last-child {
+        border-bottom: 0;
+        display: block;
+        margin-bottom: 60px;
+    }
+
+    #corporate-responsibility-page .hero.hero--variant-4 .hero__content {
+        padding-top: 0;
+    }
+
+    #corporate-responsibility-page .hero.hero--variant-4 .hero__content .hero__column {
+        padding-left: 10px;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-3 .section-break-bg,
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-6 .section-break-bg {
+        background: #ffedbf;
+    }
+
+    #MoreResources .tray--highlight-card-variation-1.col-1-card-right .tray--highlight-card-image {
+        max-height: 325px;
+    }
+
+    #product-relations-wrap .release-history {
+        padding-left: 0;
+        margin-top: 35px;
+    }
+
+    #hs-form-modal {
+        height: 900px;
+        overflow: hidden;
+    }
+
+    #pardot-form {
+        overflow: hidden;
+    }
+
+    iframe#myframe {
+        height: 100%;
+    }
+
+    .img-pill.mask--horizontal-left {
+        width: 389px;
+        height: 89px;
+    }
+
+    #pt-leadership .img-pill .image-container,
+    #pt-leadership-detail .img-pill .image-container {
+        background-size: 155%;
+        background-position: -215px 150px;
+        background-repeat: no-repeat;
+    }
+
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-1 .section-break-bg {
+        background: rgb(185, 253, 205);
+        background: -webkit-linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 100%, rgba(249, 250, 250, 1) 50%);
+        background: linear-gradient(90deg, rgba(185, 253, 205, 1) 0%, rgba(185, 253, 205, 1) 100%, rgba(249, 250, 250, 1) 50%);
+        border-radius: 0 0 30px;
+    }
+
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-2 .section-break-bg,
+    #winter-2020-release-\|-omnicell--page #product-relations-wrap .category-5 .section-break-bg {
+        background: #B9FDCD;
+        background: -moz-linear-gradient(left, #B9FDCD 0%, #B9FDCD 100%, #F9FAFA 50%);
+        background: -webkit-linear-gradient(left, #B9FDCD 0%, #B9FDCD 100%, #F9FAFA 50%);
+        background: linear-gradient(to right, #B9FDCD 0%, #B9FDCD 100%, #F9FAFA 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffedbf', endColorstr='#F9FAFA', GradientType=1);
+        border-radius: 0 0 30px;
+    }
+
+    main#winter-2020-release-\|-omnicell--page #product-relations-wrap .category-3 .section-break-bg,
+    main#winter-2020-release-\|-omnicell--page#product-relations-wrap .category-6 .section-break-bg {
+        background: rgb(121, 234, 142);
+        background: -moz-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 50%);
+        background: -webkit-linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 50%);
+        background: linear-gradient(90deg, rgba(121, 234, 142, 1) 0%, rgba(121, 234, 142, 1) 100%, rgba(249, 250, 250, 1) 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#79ea8e", endColorstr="#f9fafa", GradientType=1);
+        border-radius: 0 0 30px;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-3 .section-break-bg,
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-6 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-2 .section-break-bg,
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-5 .section-break-bg {
+        background: #ffedbf;
+        background: -moz-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: -webkit-linear-gradient(90deg, #ffedbf 0%, #ffedbf 70%, rgba(249, 250, 250, 1) 70%);
+        background: linear-gradient(90deg, #ffedbf 0%, #ffedbf 100%, rgba(249, 250, 250, 1) 100%);
+    }
+
+    #summer-2021-release-\|-omnicell-page .banner-mobile-bg {
+        background-image: url(/us-images/Solutions/Product%20Release/Summer/mobile.png) !important;
+        background-size: 30%;
+        background-position: 100% 2px;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .banner-mobile img {
+        margin-left: auto;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .intro-products-releases h1 {
+        margin-top: 87px;
+        font-size: 55px;
+        width: 80%;
+        line-height: normal;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .single-card-tablet {
+        margin-top: 40px;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap.wrapper .category>div {
+        margin-top: 35px;
+    }
+
+    main#summer-2021-release-\|-omnicell-page .single-card img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    #summer-2021-release-\|-omnicell-page div#PointofCare {
+        margin-top: 30px;
+    }
+
+    #summer-2021-release-\|-omnicell-page .navigation {
+        margin-top: 10px;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .banner-mobile {
+        margin-bottom: 35px;
+        margin-top: 35px;
+    }
+
+    #product-relations-wrap.wrapper #CentralPharmacy.category>div {
+        margin-top: 0;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .category-4 .cover-wrap {
+        background: #ffedbf;
+    }
+
+    #product-relations-wrap .banner-mobile img {
+        margin-left: -32px;
+    }
+
+    #physicians-page #narrative__page>div:nth-child(7) {
+        margin-top: -40px;
+    }
+
+    .meganav {
+        height: auto;
+    }
+
+    div#Careers {
+        /*padding-top: 3.5rem;*/
+        /*padding-bottom: 0;*/
+        padding: 3.5rem 1rem 2rem 1rem;
+    }
+
+    div#Training {
+        background-color: rgba(1, 64, 3, 1);
+    }
+
+    div#ProfessionalServices {
+        padding-top: 0;
+    }
+    
+    #QualityStatement {
+    	padding: 2rem 1rem 2rem 1rem;
+    }
+    #OfficeLocations {
+    	padding: 2rem 1rem 0 1rem;
+    }
+    .megamenu__col .meganav:nth-child(3) {
+        height: 100vh;
+    }
+
+    .megamenu__col .meganav:nth-child(4) {
+        height: 100vh;
+    }
+
+    header .megamenu__col nav:nth-child(5) {
+        /*grid-template-rows: 24% 21.5% 20.5%;*/
+        grid-template-rows: 205px 185px 185px
+    }
+
+    div#AllResources {
+        width: 200%;
+        position: relative;
+        display: block;
+    }
+
+    div#solutions-box-1 {
+        vertical-align: top;
+        padding-top: 56px;
+    }
+
+    #solutions-nav .solution-right-side #solutions-box-9 {
+        vertical-align: top;
+    }
+
+    .meganav--tiled {
+        grid-template-rows: 37% 35.5% 27.5%;
+    }
+
+    div#CorporateResponsibility {
+        padding-top: 31px;
+    }
+
+    header .megamenu__col nav:nth-child(6) {
+        grid-template-columns: 25% 25%;
+        grid-template-rows: 24% 20.5% 20.5%;
+    }
+
+    div#LeadersinPharmacy {
+        margin-top: -7px;
+        background-color: #072F11;
+    }
+
+    div#Training,
+    div#myOmnicell {
+        padding-left: 0;
+    }
+
+    div#ProductSupport {
+        vertical-align: top;
+        padding-top: 0;
+    }
+
+    div#CustomerStories {
+        background-color: rgb(1, 64, 3);
+        width: 100%;
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .meganav__group:nth-last-child(-n+2) {
+        background-color: rgba(207, 247, 187, .1);
+    }
+
+    #CustomerStories,
+    #ProfilesinLeadership,
+    #ProfessionalServices {
+        width: 48%;
+        margin: 0;
+        padding: 35px 0 0 0;
+        background-color: #072F11;
+    }
+
+    header .meganav.meganav--4up.MeganavGroup1up div {
+        width: 100%;
+    }
+
+    #solutions-nav .solution-center div a {
+        padding-bottom: 0;
+        vertical-align: top;
+    }
+
+    #solutions-nav .solution-center {
+        padding-bottom: 0;
+    }
+
+    div#Collateral,
+    div#Video {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    #podcast-page .body-content {
+        width: 100%;
+        margin-left: auto
+    }
+
+    #leadership-page .tray.tray--flush {
+        padding-top: 0;
+        padding-bottom: 30px
+    }
+
+    #leadership-page .hero--variant-5 .hero__banner image {
+        transform: scale(1) translateY(-4%) !important
+    }
+
+    #leadership-page .hero--variant-5 .hero__banner {
+        width: 100%;
+        height: 92%;
+        margin-top: 0;
+        left: 48%;
+        position: relative;
+        transform: translateX(-50%);
+        top: -1px;
+        margin-bottom: 0
+    }
+
+    #leadership-page .hero--variant-5 .hero__background:last-of-type {
+        margin-bottom: 30px
+    }
+
+    #leadership-page .hero--variant-5 .hero__fragment {
+        width: 60%
+    }
+
+    #pt-leadership-detail .pill-vert {
+        margin-left: 206px
+    }
+
+    .pill-vert {
+        -webkit-mask-position-y: -476px;
+        mask-position-y: -476px
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1.tray--light .order-lg-2 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    footer .globalfooter {
+        padding-bottom: 20px
+    }
+
+    #autonomous-pharmacy-overview-page #narrative__page>div:first-child .tray.tray--flush-top {
+        padding-bottom: 0;
+    }
+
+    #autonomous-pharmacy-overview-page #narrative__page>div:first-child .tray.tray--flush-top .hero--variant-1 .hero__background:last-of-type .col-lg-1:last-of-type {
+        display: none;
+    }
+
+    #autonomous-pharmacy-overview-page #narrative__page>div:nth-child(2) {
+        padding-top: 0;
+    }
+
+    #autonomous-pharmacy-overview-page #narrative__page .featured-card,
+    #narrative__page .featured-card {
+        border-left: 1px solid #979797;
+        padding: 0 16px
+    }
+
+    #expert-services-page #narrative__page .pill--variant-horz--banner-1 {
+        margin-left: 0
+    }
+
+    #hospital-page .hero--variant-5 .hero__banner image {
+        transform: scale(1) translateX(0) !important
+    }
+
+    #pharmacist-page #narrative__page>div:nth-child(10) {
+        padding-top: 30px;
+    }
+
+    #pharmacist-page .featured-product img {
+        max-width: 100%
+    }
+
+    #narrative__page.pharmacist .tray--product .featured-product:nth-child(2n) {
+        padding-top: 35px
+    }
+
+    #narrative__page.pharmacist .tray--product .featured-product {
+        padding-left: 8px
+    }
+
+    #pt-leadership-detail .dan-johnston .pill-vert {
+        margin-left: 112px;
+        width: 335px;
+        height: 552px;
+        margin-top: -148px
+    }
+
+    .basicheader--variant-2.green-variant .basicheader__column {
+        margin-top: 570px
+    }
+
+    .podcast-content .podcast-speakers .speaker {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-right: unset
+    }
+
+    #corporate-responsibility-page .hero {
+        padding-top: 0px;
+    }
+
+    #autonomous-pharmacy-overview-page .scrollflow .scrollflow__panel {
+        padding-top: 30px;
+    }
+
+    #point-of-care-page .scrollflow .scrollflow__panel {
+        padding-top: 30px;
+    }
+
+    #population-health-page .scrollflow .scrollflow__panel {
+        padding-top: 30px;
+    }
+
+    div#solutions-box-10 {
+        padding-left: 10px;
+    }
+
+    #solutions-nav .solution-left #solutions-box-1 a {
+        padding-top: 0;
+    }
+
+    .mainmenu__back {
+        left: -16px;
+    }
+
+    header .meganav.meganav--4up.MeganavGroup1up div {
+        width: 97%;
+    }
+
+    header .meganav--tiled .meganav__group:nth-of-type(odd) {
+        padding: 0 1rem 0 1rem;
+    }
+
+    .mobilemenu {
+        padding-top: 15px;
+    }
+
+    .meganav__link,
+    .meganav__sublink {
+        height: 40px;
+        vertical-align: text-bottom;
+    }
+
+    .meganav__item.meganav__item--list.meganav__item--iconless a {
+        height: 40px;
+    }
+
+    nav.meganav.meganav--3up.meganav--3up-alt-1 {
+        display: block;
+    }
+
+    nav.meganav.meganav--3up .meganav__group--2up:first-of-type {
+        /* grid-area: d1; */
+        height: 295px;
+    }
+
+    .meganav--3up .meganav__group:nth-of-type(2) {
+        width: 50%;
+        padding-right: 1rem;
+        float: left;
+        display: block;
+        height: 65%;
+        background-color: rgba(28, 28, 28, .25);
+    }
+
+    .meganav--3up .meganav__group:nth-of-type(3) {
+        width: 50%;
+        float: right;
+        display: block;
+        height: 65%;
+        background-color: rgba(28, 28, 28, .25);
+    }
+
+    #solutions-nav .meganav__link {
+        height: auto;
+    }
+
+    .meganav.meganav--4up.MeganavGroup1up div a {
+        /* min-height: 58px; */
+        height: auto;
+    }
+
+    .meganav.meganav--tiled .meganav__group--1up a {
+        height: auto;
+    }
+
+    nav.meganav.meganav--3up .meganav__group--2up:first-of-type .meganav__sublink,
+    nav.meganav.meganav--3up .meganav__group--2up:first-of-type .meganav__sublink a {
+        margin: 0;
+        padding-bottom: 0;
+        line-height: normal;
+    }
+
+    nav.meganav.meganav--3up .meganav__group--2up:first-of-type .meganav__item--category {
+        max-width: 100%;
+    }
+
+    .hero.hero--variant-2 .contentbox.light {
+        padding: 0;
+    }
+
+    .hero.hero--variant-2 .contentbox.light>div:first-child {
+        padding-left: 10px !important;
+    }
+
+    .hero.hero--variant-2 .contentbox.light>div:last-child .button.button--text-top {
+        margin: 20px 0 -8px;
+    }
+
+    #careers-page .tray--content-block-5 {
+        padding-bottom: 0px;
+    }
+
+    #careers-page .tray--content-block-10.tray--dark {
+        margin-top: 0px;
+    }
+
+    #pt-product .content {
+        margin-top: 0px;
+    }
+
+    #closed-door-pharmacy-page #narrative__page>div:nth-child(7) .col-12.col-lg-3 {
+        height: 10px;
+    }
+
+    .meganav--tiled {
+        grid-template-rows: 35% 35% 35% 35%;
+    }
+
+    div#IntheNews {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    .meganav.meganav--tiled a .meganav__caption {
+    	height: 6rem;
+    }
+
+    header .meganav--tiled .meganav__group:nth-of-type(3),
+    header .meganav--tiled .meganav__group:nth-of-type(4) {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+
+    footer .globalfooter::before {
+        background-color: #9d9d9d;
+
+    }
+
+    #corporate-responsibility-page .hero__banner image {
+        transform: scale(1.2) translate(-8.5%, -19%);
+    }
+
+}
+
+@media only screen and (max-width:560px) {
+    #bbcdBanner .b-flex.b-buttons {
+        width: 100%;
+    }
+
+    #bbcdBanner.b-banner.b-banner-bottom .b-button {
+        max-width: 100%;
+        margin-right: 0;
+        clear: both;
+        width: 100%;
+    }
+
+    #bbcdBanner.b-banner .b-buttons div {
+        display: block;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .list--articles li.list-item--with-img a p {
+        width: 100%;
+        float: none
+    }
+    #featured-events .row div.col-lg-3 {
+    	width: 100%;
+    }
+}
+
+@media(max-width:428px) {
+   #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) {
+    	height: 95vh;
+    	grid-template-rows: 25% 23% 23%;
+    } 
+}
+
+
+@media(max-width:414px) {
+    
+    #summer-2021-release-\|-omnicell-page .banner-mobile-bg {
+        background-size: 34%;
+    }
+
+    #summer-2021-release-\|-omnicell-page #product-relations-wrap .intro-products-releases h1 {
+        margin-top: 69px;
+        font-size: 36px;
+    }
+
+    #population-health-page #narrative__page .hero--variant-5 .hero__banner image,
+    #careers-page #narrative__page .hero--variant-5 .hero__banner image,
+    #quality-policy-page #narrative__page .hero--variant-5 .hero__banner image {
+        transform: scale(1) translateY(-2%) translateX(0%) !important;
+    }
+
+    #our-mission-page #narrative__page .hero--variant-5 .hero__banner image {
+        transform: scale(1) translateY(-1%) !important;
+    }
+
+    #quality-policy-page .hero--variant-5 .hero__banner {
+        height: 24vh;
+        bottom: 0;
+    }
+
+    #solutions-nav .meganav__sublink span {
+        margin: 0;
+    }
+
+    #solutions-nav .solution-center div {
+
+        min-height: 145px;
+        vertical-align: top;
+    }
+
+    .x4449 .accordion .accordion__trigger h2 {
+        width: 85%;
+    }
+
+    .megamenu__col .meganav:nth-child(1) {
+        height: 100vh;
+    }
+
+    div#solutions-box-2 {
+        padding-top: 2rem;
+    }
+
+    .accordion__trigger h2 br {
+        display: none;
+    }
+
+    .meganav__item.meganav__item--list.meganav__item--iconless a {
+        height: 45px;
+    }
+
+    
+
+    header .megamenu__col nav:nth-child(5) {
+        grid-template-rows: 210px 170px 170px 210px;
+    }
+
+    header.mainmenu .meganav--tiled .meganav__group {
+        padding: 2rem 2rem 0 1rem;
+    }
+
+    .meganav--3up-alt-1 .meganav__group:first-of-type .meganav__item {
+        max-width: 100%;
+    }
+
+    div#myOmnicell {
+        width: 50%;
+        padding-right: 0;
+    }
+
+    div#Training a {
+        height: auto;
+    }
+
+    #solutions-box-9 {
+        height: auto;
+        vertical-align: top;
+        margin-top: 0px;
+    }
+}
+
+@media (max-width:400px) {
+    #home-page .hero.hero--variant-2 {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:390px) and (max-height:844px) {
+    
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) {
+        height: 95vh;
+        grid-template-rows: 30% 23% 23%;
+    }
+
+}
+
+@media (max-width:375px) {
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) {
+    	height: 130vh;
+    	grid-template-columns: 0 50%;
+    	grid-template-rows: 25% 25% 25% 22%;
+    }
+}
+
+
+
+@media only screen and (min-width: 348px) {
+    .x4449 .accordion .accordion__trigger h2 {
+        width: 100%;
+    }
+}
+
+@media(max-width:320px) {
+    #wrapper-container header .megamenu .megamenu__col .meganav:nth-child(4) {
+    	height: 176vh;
+    	grid-template-rows: 25% 25% 25% 28%;
+    }
+}
+
+@media only screen and (min-width:1366px) and (max-width: 1500px) {
+    #narrative__page.quality-policy .hero__content {
+        top: 60px;
+    }
+}
+
+@media only screen and (min-width:1241px) and (max-width:1530px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: calc(1200px - 31%);
+    }
+
+    #bbcdBanner .b-flex.b-buttons {
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width:1161px) and (max-width:1240px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: calc(1200px - 48%);
+        margin-left: calc(50% - 492px)
+    }
+
+    #bbcdBanner .b-flex.b-buttons {
+        width: 37%;
+    }
+
+    #bbcdBanner.b-banner .b-button {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:1055px) and (max-width:1450px) {
+    #autonomous-pharmacy-overview-page .scrollflow {
+        padding-bottom: 150px;
+    }
+
+    #autonomous-pharmacy-overview-page .hero.hero--variant-1 {
+        max-height: 100%;
+    }
+}
+
+@media only screen and (min-width:1055px) and (max-width:1160px) {
+    #bbcdBanner.b-banner.b-banner-bottom .b-scrollabel-content {
+        max-width: calc(1200px - 61%);
+        margin-left: calc(50% - 456px);
+    }
+
+    #bbcdBanner .b-flex.b-buttons {
+        width: auto;
+        justify-content: end;
+        padding-left: 20px;
+    }
+
+    #bbcdBanner {
+        height: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1055px) {
+    .hero.hero--variant-1 .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+@media (min-height:1000px) and (max-height:1024px) {
+    section.masked--hero.enabled--subbanner {
+        height: calc(100vh - 190px);
+    }
+
+    .masked--hero.enabled--subbanner #sub_header {
+        top: auto;
+        bottom: -61%;
+    }
+
+
+}
+
+@media (min-width: 810px) and (max-width: 810px) {
+    .top-card-content {
+        margin-bottom: 30px;
+    }
+
+    .highlight-columns-1 .tray--highlight-card-image {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    section .highlight-ornaments.left-desktop-ornament {
+        position: relative;
+    }
+
+    .tray--highlight-card-content .button {
+        bottom: 0;
+    }
+
+    .tray--highlight-card-image img {
+        display: flex;
+    }
+
+    .column-left .tray--highlight--quote.desktop-gap:empty {
+        min-height: 0;
+    }
+
+    .highlight-columns-1.column-left .highlight-ornaments {
+        top: 20px;
+        position: relative;
+    }
+}
+
+@media (min-height:800px) and (max-height: 1100px) {
+
+    #narrative__page .hero.hero--variant-2 {
+        max-height: calc(100vh - 57px);
+    }
+
+    #narrative__page .hero--variant-2 .hero__banner {
+        top: 165px;
+    }
+}
+
+@media (min-width:767px) and (max-width:1055px) {
+    
+    
+    #intelligence-page .hero.hero--variant-1 .hero__column h1,
+    #central-pharmacy-dispensing-page .hero.hero--variant-2 .hero__column h1,
+    #point-of-care-page .hero.hero--variant-4 .hero__column h1,
+    #point-of-care-page .hero.hero--variant-4 .hero__column p,
+    #central-pharmacy-iv-compounding-page .hero.hero--variant-1 .hero__column h1 {
+        max-width: 50%;
+    }
+
+    #central-pharmacy-iv-compounding-page .hero.hero--variant-1 .hero__column p {
+        margin-top: 20%;
+        margin-bottom: -40px;
+    }
+
+    .megamenu__col .meganav:nth-child(5).meganav--tiled {
+        grid-template-areas: "a01 a01"
+            "a03 a04"
+            "a05 a06"
+            "a07 a08";
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .megamenu__col .meganav:nth-child(5).meganav--tiled .meganav__group:nth-child(2) {
+        display: none;
+    }
+
+}
+
+
+@media (min-width:766px) and (max-width:767px) {
+    #contact-us-page iframe#myframe {
+        height: 620px !important;
+    }
+    
+}
+
+
+@media(min-width:672px) and (max-width:1055px) {
+    #home-page .hero.hero--variant-3 .contentbox.light h3.p1{
+        font-weight:200;
+    }
+    #home-page .hero--variant-3 .hero__banner-position .hero__banner.hero__banner--2 image {
+    	transform: translateX(0%) !important;
+    }
+    #home-page .hero .hero__background {
+    	margin-top:150px;
+    }
+    #home-page  .hero--variant-3 .hero__banner--2 {
+    	left: -60px;
+    	transform: scale(.8);
+    }
+    #home__page .hero__content {
+    	padding-bottom: 0px !important;
+    }
+    #home__page .hero.hero--variant-3{
+        min-height: calc(100vh - 200px);
+    }
+    .meganav--tiled #PressReleases.meganav__group,
+    .meganav--tiled #OurMission.meganav__group{
+    	padding-left: 2rem;
+    }
+
+    #press-release-page #ajax-frame .row div.col-12.col-md-6,
+    #in-the-news-page #ajax-frame .row div.col-12.col-md-6{
+    	max-width: 100%;
+    	flex: 0 0 100%;
+    }
+    #press-release-page #ajax-frame .row div.col-12.col-md-3,
+    #in-the-news-page #ajax-frame .row div.col-12.col-md-3{
+    	display: none;
+    }
+    #Podcast {
+    	padding: 2rem 1rem 2rem 1rem;
+    }
+    .mobilemenu {
+    	height: 93%;
+    }
+    #Customers .column-left .button.Clean-White\(Default\) {
+    	padding-bottom: 0;
+    }
+    #population-health-page .tray.tray--inline-nav-1 {
+    	padding-top: 0;
+    	padding-bottom: 30px;
+    }
+    #population-health-page .tray.tray--content-block-10.tray--light {
+    	padding-top: 0;
+    }
+    #platform-and-interoperability-page .contentbox h2,
+    #population-health-page .tray.tray--content-block-4 .contentbox h2{
+    	margin-bottom: 20px;
+    }
+    #it-management-page .tray.tray--content-block-1.tray--dark.tray--flush.tray-col-2 .contentbox.light p:last-child {
+    	display: none;
+    }
+    #it-management-page #narrative__page .tray--content-block-1 .text-container {
+    	margin-bottom: 0;
+    }
+
+    header.headroom--pinned {
+        top: 0;
+        transform: translateY(0) translateZ(1px) !important;
+    }
+
+    header.headroom--not-top {
+        position: fixed;
+        top: 0;
+    }
+
+    .hero.hero--variant-1 .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .masked--hero.enabled--subbanner #sub_header {
+        top: calc(100vh - 83%);
+    }
+
+    .masked--hero.enabled--subbanner {
+        height: auto;
+        margin-bottom: 130px;
+    }
+
+    .masked--hero.enabled--subbanner .hero__scroll {
+        display: none;
+    }
+
+    .hamburger {
+        padding-right: 5px;
+    }
+
+    .searchform {
+        right: calc(50px - .5rem);
+    }
+
+    footer .globalfooter .col-md-6 ul.hoz li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    .footer-arrow-tablet {
+        display: block;
+    }
+    
+    .footer-arrow-desktop {
+        display: none;
+    }
+
+    footer .btt {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    footer .globalfooter {
+        padding-top: 103px;
+        padding-bottom: 110px;
+        height: auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    footer .globalfooter .row div:nth-child(3) {
+        margin-left: 0;
+    }
+
+    footer .globalfooter .col-md-6 {
+        position: absolute;
+        top: 100px;
+        right: -33%;
+    }
+
+    footer .globalfooter .row.d-lg-none {
+        margin-top: -79px;
+    }
+
+    footer .globalfooter .row+.row.bottom-bar {
+        margin-top: 100px;
+    }
+
+    #population-health-page .hero.hero--variant-5 {
+        padding-top: 29px;
+    }
+
+    #population-health-page .hero__column,
+    #patient-engagement-page .hero.hero--variant-5 .hero__column h1 {
+        max-width: 60%;
+    }
+
+    #patient-engagement-page .hero.hero--variant-5 .hero__column {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    #point-of-care-page .tray--content-block-10 .col-md-6,
+    #platform-and-interoperability-page .tray--content-block-10 .col-md-6,
+    #careers-page .tray--content-block-10 .col-md-6,
+    #patient-engagement-page .tray--content-block-10 .col-md-6 {
+        max-width: 100%;
+        flex: 100%;
+    }
+
+    #point-of-care-page .hero__column {
+        padding-top: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-bottom: 0;
+    }
+
+    #point-of-care-page .hero--variant-4 .hero__banner-position {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 0;
+        top: 0;
+    }
+
+    #terms-page #narrative__page .basicheader,
+    .basicheader--variant-1 .basicheader__column {
+        margin-bottom: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    #x841 #terms-page #narrative__page .basicheader .basicheader--variant-1 .basicheader__column h1 {
+        padding-top: 145px;
+    }
+
+    #terms-page #narrative__page .basicheader .basicheader--variant-1 .basicheader__column h1 {
+        padding-top: 130px;
+    }
+
+    #sub_header .img-holder {
+        height: 100%;
+        width: 548px;
+        position: relative;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+
+    div#sub_header_left {
+        overflow: hidden;
+    }
+
+    #corporate-responsibility-page .hero__banner image {
+        transform: scale(1.2) translate(-8.5%, -19.5%);
+    }
+
+    #xr2-central-pharmacy-dispensing-service-page .hero.hero--variant-1 .col-md-6 p {
+        width: 50%;
+    }
+
+    #health-system-page .hero.hero--variant-1 .col-md-6 h1,
+    #autonomous-pharmacy-overview-page .hero.hero--variant-1 .col-md-6 h1,
+    #xr2-central-pharmacy-dispensing-service-page .hero.hero--variant-1 .col-md-6 h1 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #health-system-page .hero.hero--variant-1 .col-md-6 {
+        margin-bottom: -20px;
+        padding-bottom: 0;
+    }
+
+    #closed-door-pharmacy-page .tray.tray--flush-top {
+        padding-top: 0px;
+    }
+
+    #closed-door-pharmacy-page .tray.tray--block-2 .row .col-12:first-child h3 {
+        display: none;
+
+    }
+
+    #closed-door-pharmacy-page .tray.tray--block-2 .row .col-12:nth-child(2) .linking-card {
+        margin-top: 10px;
+    }
+
+    #closed-door-pharmacy-page .tray.tray--content-block-10 {
+        margin-bottom: 30px;
+    }
+
+    #training-page #narrative__page .tray--content-block-2 a.button.button--text-top {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    #training-page #narrative__page>div:nth-child(4) {
+        margin-top: 40px;
+    }
+
+    #central-pharmacy-dispensing-page .scrollflow__stick.scrollflow__content .body-large {
+        margin-top: 0px;
+    }
+
+    #central-pharmacy-dispensing-page #narrative__page .colorswitch>div:nth-child(4) h2 {
+        margin-bottom: 40px;
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1.tray--light .order-lg-2 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #central-pharmacy-dispensing-page .tray--content-block-1 .text-container .row .order-md-4 {
+        display: none;
+    }
+
+    #it-management-page #narrative__page .hero--variant-2 .hero__banner,
+    #health-system-page #narrative__page .hero--variant-1 .hero__banner,
+    #central-pharmacy-dispensing-page #narrative__page .hero--variant-2 .hero__banner {
+        top: 0px;
+    }
+
+    #pharmacist-page #narrative__page>div:nth-child(5) {
+        margin-top: 40px;
+    }
+
+    #physicians-page #narrative__page .col-md-5.hero__column {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #medication-adherence-page #narrative__page>div:nth-child(5) .tray--content-block-8.tray--light .contentbox,
+    #central-pharmacy-iv-compounding-page #narrative__page>div:nth-child(8) .tray--content-block-8.tray--light .contentbox,
+    #closed-door-pharmacy-page #narrative__page .tray--content-block-8.tray--light .contentbox {
+        margin: 30px 30px 30px 0;
+    }
+
+    #all-products-page .pageBuilderLayout {
+        padding-right: 45px;
+    }
+
+    /* #customer-stories-page>div:last-child>.container-fluid>.row>.col-12:last-child .row:first-child .col-12:first-child {
+        display: none;
+    } */
+
+    /* #customer-stories-page>div:last-child>.container-fluid>.row>.col-12:last-child .row:first-child .col-12:last-child {
+        flex: 0 0 90%;
+        max-width: 90%;
+    } */
+
+    /* #customer-stories-page>div:last-child>.container-fluid>.row>.col-12:last-child .row:first-child .col-12:last-child form .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: block;
+    } */
+
+    #customer-stories-page #ajax-frame .row:last-child .col-12 .row .col-12 {
+        display: block;
+    }
+
+    #customer-stories-page #ajax-frame .row:last-child .col-md-9.offset-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #quality-policy-page .hero--variant-5 .hero__banner {
+        height: 42vh;
+    }
+
+    #our-mission-page #narrative__page .colorswitch>div:nth-child(5) .text-container {
+        margin-bottom: 0;
+    }
+
+    #our-mission-page #narrative__page .colorswitch>div:nth-child(6) {
+        padding-bottom: 40px;
+    }
+
+    #it-management-page #narrative__page>div:nth-child(5) .tray {
+        padding-top: 0;
+    }
+
+    #MoreResources .tray--highlight--quote.desktop-gap {
+        min-height: 20px;
+    }
+
+    #MoreResources .top-card-content {
+        margin-bottom: 20px;
+    }
+
+    #central-pharmacy-iv-compounding-page #narrative__page>div:nth-child(11) .tray {
+        padding-top: 0;
+    }
+
+    #point-of-care-page .hero--variant-4 .hero__banner g {
+        transform: scale(0.80);
+    }
+
+    #point-of-care-page .hero__banner-position image {
+        transform: translate(-110px,-58px) scale(0.85);
+    }
+
+    #central-pharmacy-dispensing-page .tray.tray--flush-top.tray--dark .hero__content .row .col-md-5.hero__column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    #product-relations-wrap .release-history {
+        padding-left: 0;
+        margin-top: 30px;
+    }
+
+    #blog-page .tray--in-this-issue .col-md-3.d-lg-block {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    #blog-page .tray--in-this-issue .col-md-3.d-lg-block ul.also-in-this-issue li:first-child {
+        display: none;
+    }
+
+    #blog-page .tray--in-this-issue .col-md-3.d-lg-block ul.also-in-this-issue li {
+        width: 109px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #blog-page .tray--in-this-issue .col-md-3.d-lg-block ul.also-in-this-issue {
+        display: table;
+        width: 100%;
+    }
+
+    #Services,
+    #LeadersinPharmacy {
+        padding-left: 15px;
+    }
+
+    #pt-leadership-detail a.back-to {
+        width: 300%
+    }
+
+    #central-pharmacy-dispensing-page .scrollflow__stick.scrollflow__content p.body-large:first-of-type {
+        margin-top: 0
+    }
+
+    #omnicell-newsletter-page .basicheader .col-md-8 {
+        flex: 0 0 100%;
+        max-width: 100%
+    }
+
+    .scrollflow__panel img {
+        padding-top: 59px
+    }
+
+    #central-pharmacy-dispensing-page .scrollflow__panel img {
+        padding-top: 52px
+    }
+
+    #central-pharmacy-dispensing-page .scrollflow__stick.scrollflow__content .body-large {
+        margin-top: 121px;
+        display: block
+    }
+
+    #central-pharmacy-dispensing-page .scrollflow {
+        margin-bottom: 35px
+    }
+
+    #narrative__page .linking-card {
+        margin-top: 40px
+    }
+
+    #physicians-page .tray.tray--button.tray--dark .col-md-3 {
+        flex: 0 0 50%;
+        max-width: 50%
+    }
+
+    #intelligence-page #narrative__page .tray--content-block-1.tray--light {
+        margin-bottom: 0;
+        padding-bottom: 30px
+    }
+
+    #intelligence-page #narrative__page .tray--content-block-1 .text-container {
+        margin-bottom: 0
+    }
+
+    #product-support-page #narrative__page .tray--content-block-1.tray--light {
+        margin-bottom: 0;
+        padding-bottom: 0
+    }
+
+    #product-support-page #narrative__page .tray--content-block-1 .text-container {
+        margin-bottom: 0
+    }
+
+    #product-support-page {
+        padding-bottom: 40px
+    }
+
+    #pt-leadership-detail .pill-vert {
+        margin-left: 110px;
+        width: 555px;
+        height: 673px;
+        margin-top: -124px
+    }
+
+    #pt-leadership-detail .tray--flush-top .bio-header .contentbox {
+        padding-left: 30px;
+        width: 62%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px
+    }
+
+    #pt-leadership-detail .bio-header {
+        width: 140%
+    }
+
+    #blog-page .hero,
+    #services-page .colorswitch .hero,
+    #quality-policy-page .hero {
+        padding-top: 0;
+    }
+
+    #blog-page .hero h1,
+    #services-page .colorswitch .hero h1,
+    #quality-policy-page .hero h1 {
+        padding-top: 4rem;
+    }
+
+    #blog-page .hero--variant-4 .hero__banner {
+        margin-top: -77px;
+    }
+
+    #leadership-page .hero {
+        padding-top: 3rem;
+    }
+
+    #leadership-page .hero--variant-5 .hero__background:not(:last-of-type) {
+        margin-top: -15px;
+    }
+
+    #leadership-page .hero__column {
+        padding-top: 2rem;
+    }
+
+}
+
+@media (min-width:672px) and (max-width:969px) {
+    #pt-leadership-detail .tray--flush-top .bio-header .contentbox {
+        width: 51%
+    }
+}
+
+@media screen and (min-width: 672px) and (max-width: 811px) {
+    #training-page .hero.hero--variant-1 .contentbox.light h1 {
+        width: 50%;
+    }
+}
+
+@media (min-width:672px) and (max-width:797px) {
+
+    #professional-services-page .hero__column,
+    #omnicell-newsletter-page .hero__column {
+        flex: 0 0 60%;
+        max-width: 60%
+    }
+}
+
+@media (min-width:672px) and (max-width:792px) {
+    .meganav--tiled {
+        padding-bottom: 60px
+    }
+
+    .meganav--tiled .meganav__group:nth-of-type(8) {
+        padding: 2rem 2rem 25rem 1rem
+    }
+    #Video {
+    	padding: 2rem 2rem 2rem 1rem;
+    }
+}
+
+@media (min-width:672px) and (max-width:766px) {
+    #pt-leadership-detail .tray--flush-top .bio-header .contentbox {
+        width: 47%
+    }
+}
+
+@media (min-width:672px) and (max-width:713px) {
+    #pt-leadership-detail .tray--flush-top .bio-header .contentbox {
+        width: 49%
+    }
+
+    #pt-leadership-detail .bio-header {
+        width: 157%
+    }
+}
+
+@media only screen and (min-width: 672px) and (max-width: 747px) {
+    .x4449 .accordion .accordion__trigger:nth-of-type(3) {
+        margin: 35px 0 0 0;
+        clear: both;
+        display: block;
+        height: auto;
+        padding-bottom: 40px;
+        position: relative;
+    }
+
+    .x4449 .accordion .accordion__trigger:nth-of-type(3) .accordion__arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+    }
+
+    .x4449 .accordion {
+        padding: 0 16px;
+    }
+
+    .x4449 .accordion .accordion__trigger h2 {
+        width: 89%;
+    }
+
+    #pt-product.x4449 #section-3 .left-col {
+        padding: 0;
+    }
+}
+
+@media(max-width:428px) and (max-height:926px) {
+    div#OurMission {
+        padding: 2rem 1rem 2rem 2rem;
+    }
+
+    div#QualityStatement {
+        padding: 31px 1rem 0 1rem;
+    }
+}
+
+@media(max-width:414px) and (max-height:736px) {
+    div#OurMission {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+@media(max-width:375px) and (max-height:812px) {
+    div#OurMission {
+        padding: 2rem 1rem 2rem 1rem;
+    }
+}
+
+@media(max-width:375px) and (max-height:667px) {
+    .megamenu__col {
+        height: auto;
+    }
+
+    .megamenu__mask {
+        height: auto;
+    }
+}
+
+@media(max-width:320px) and (max-height:568px) {
+
+    .meganav__link,
+    .meganav__sublink {
+        height: 70px;
+    }
+
+    .megamenu__col .meganav:nth-child(3) {
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 464px) {
+    .x4449 .accordion {
+        padding: 0;
+    }
+
+    .x4449 .accordion .accordion__trigger {
+        padding: 17px 0 0 0;
+        width: 100%;
+        position: relative;
+        clear: both;
+        display: block;
+        height: auto;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+
+    .x4449 .accordion .accordion__trigger:first-of-type {
+        margin-top: -26px;
+    }
+
+    .x4449 .accordion .accordion__trigger h2 {
+        width: 88%;
+    }
+
+    .x4449 .accordion .accordion__trigger .accordion__arrow {
+        position: absolute;
+        top: 30%;
+        right: 0;
+        transform: scale(0.5) translateX(-50%);
+    }
+
+    #pt-product.x4449 #section-3 .left-col {
+        padding: 0;
+    }
+
+    #pt-product.x4449 #section-3 .left-col::after {
+        width: 96%;
+        margin: 0 19px 0 9px;
+    }
+}
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+    
+    @media (min-width:766px) and (max-width:767px) {  
+        #contact-us-page iframe#myframe {
+            height: 620px !important;
+        }
+        
+    }
+
+    #product-relations-wrap .content {
+        min-height: 0
+    }
+
+    #product-relations-wrap .section-break .container>.row {
+        min-height: auto
+    }
+
+    .meganav--tiled :nth-of-type(n+3).meganav__group .meganav__item svg,
+    .meganav--tiled :nth-of-type(n+3).meganav__group .meganav__item::before {
+        display: block;
+    }
+
+    a.mainmenu__callout {
+        padding-top: 20px;
+    }
+
+    .highlight-columns-2 .tray--highlight-card-content {
+        margin-right: 16px;
+        flex: 0 0 43%;
+    }
+
+    .meganav svg {
+        max-width: 0;
+    }
+
+    .megamenu__col .meganav--tiled:nth-chidl(5) {
+        grid-template-areas: "a01 a03 a05 a07""a01 a04 a06 a08"
+    }
+
+    .megamenu__col .meganav--tiled:nth-chidl(5) #empty {
+        display: none;
+    }
+
+    .meganav--tiled #AllResources {
+        height: 100%;
+    }
+
+    .meganav #AllResources svg path {
+        stroke: transparent !important;
+    }
+
+    .tray--highlight-card-variation-1 {
+        padding-left: 15px;
+    }
+
+    .tray--highlight-block-1-2 .tray--highlight-card-variation-1 {
+        padding-right: 15px;
+    }
+
+    .column-right .column-variation-2-column.row,
+    .highlight-columns-2 {
+        justify-content: space-between;
+    }
+
+    .tray--highlight-block-2-1 .highlight-columns-1.column-right {
+        padding-left: 1px;
+    }
+
+    .hero__scroll {
+        left: 15px;
+        top: 95%;
+    }
+
+    .scrolllock {
+        overflow: visible !important;
+    }
+
+    .meganav:first-child .meganav__item--category {
+        height: 40%;
+    }
+
+    .tray--highlight-card-content .button {
+        bottom: 0;
+    }
+
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media (min-width: 1056px) {
+        .x109 .mainlogo .lazyloaded {
+            transform: scale(1);
+            margin-top: 0;
+            width: 173px;
+            height: auto;
+        }
+    }
+
+    #leadership-page .card.card--profile img:hover,
+    #leadership-page .card.card--profile img {
+        transition: none !important;
+    }
+    
+    @media (min-width:768px) and (max-height:1024px) {
+        #contact-us-page #hs-form-modal #myframe {
+            height: 550px !important;
+        }
+    }
+    
+
+}
+
+@media screen {
+    @media (max-width: 1200px) {
+
+        @media all and (-ms-high-contrast: none),
+        (-ms-high-contrast: active) {
+            highlight-columns-2 .tray--highlight-card-content {
+                flex: 0 0 42%;
+            }
+        }
+    }
+}
+
+/*Ipad air*/
+@media (max-height: 1180px) and (max-width: 820px) {
+    .masked--hero.enabled--subbanner #sub_header {
+        top: 50px;
+        position: relative;
+        flex: 0 0 98%;
+        max-width: 98%;
+    }
+}
+
+/*Ipad*/
+@media (max-height: 1080px) and (max-width: 810px) {
+    #point-of-care-page .hero--variant-4 .hero__banner-position {
+        margin-bottom: -24%;
+    }
+
+    .masked--hero.enabled--subbanner #sub_header {
+        top: calc(100vh - 80%);
+    }
+
+    #hospital-page .hero {
+        padding-top: 30px;
+    }
+
+    #sub_header {
+        position: unset;
+    }
+}
+
+/*Ipad mini*/
+@media (max-height: 1024px) and (min-width: 768px) {
+    section.masked--hero.enabled--subbanner {
+        height: calc(100vh - 190px);
+    }
+    /* #contact-us-page #hs-form-modal #myframe {
+            height: 650px !important;
+        }*/
+}
+
+
+
+@media (max-height: 962px) and (max-width: 601px) {
+    section.masked--hero.enabled--subbanner {
+        margin-bottom: 110%;
+    }
+
+    .masked--hero.enabled--subbanner.white--text.DarkGreen_Variation_1 .contentbox {
+        flex: 100%;
+    }
+
+    .masked--hero.enabled--subbanner {
+        margin-bottom: 570px;
+        max-height: calc(100vh + 180px);
+    }
+}
+
+@media (min-height: 1049px) and (max-height: 1050px) and (min-width: 1679px) and (max-width: 1680px) {
+
+    #pharmacist-page #narrative__page .hero.hero--variant-2,
+    #nursing-page #narrative__page .hero.hero--variant-2,
+    #physicians-page #narrative__page .hero.hero--variant-2,
+    #it-management-page #narrative__page .hero.hero--variant-2 {
+        padding-bottom: 68px;
+    }
+
+}
+
+@media (min-height: 899px) and (max-height: 900px) and (min-width: 1439px) and (max-width: 1440px) {
+
+    #pharmacist-page #narrative__page .hero.hero--variant-2,
+    #nursing-page #narrative__page .hero.hero--variant-2,
+    #physicians-page #narrative__page .hero.hero--variant-2,
+    #it-management-page #narrative__page .hero.hero--variant-2 {
+        padding-bottom: 60px;
+    }
+
+}
+
+@media (min-width: 1056px){
+    #home-page .hero__scroll {
+    	bottom: -11%;
+    	left: 0;
+    }
+    #home-page .hero--variant-3 .hero__banner-position .hero__banner.hero__banner--2 image {
+    	transform: translateX(-20%) !important;
+    }
+    
+    #home-page .hero__content .contentbox.light a {
+    	padding-left: 0;
+    }
+    #autonomous-pharmacy-overview-page .contentbox.scrollflow__content {
+	padding-bottom: 60px;
+}
+    #solutions-nav .solution-left div a, #solutions-nav .solution-right-side div a {
+    	padding: 31px 1rem;
+    }
+    #solutions-nav .solution-left {
+    	background-color: rgba(1, 64, 3, 1);
+    	min-height: 420px;
+    }
+    #solutions-nav .meganav__sublink {
+    	height: auto;
+    }
+    #solutions-nav .solution-center.column-3x3 a {
+        padding: 23px 1rem 0;
+    }
+    
+    #solutions-nav.meganav--tiled.parent_column-3x3 {
+        grid-template-columns: 25% 75%;
+    }
+
+    #solutions-nav .solution-center.column-3x3 {
+    	grid-template-areas: "a01 a04 a07" "a02 a05 a08" "a03 a06 a09";
+    	grid-template-columns: 33.33% 33.33% 33.33%;
+    	-ms-grid-columns: 33.33% 33.33% 33.33%;
+    	grid-template-rows: 54% 48% 57%;
+    	-ms-grid-rows: 54% 48% 57%;
+    }
+    
+    #solutions-nav .solution-center.column-3x3 span.meganav__caption {
+        height: auto;
+    }
+    
+    #solutions-nav .solution-center.column-3x3 #solutions-box-11 a {
+    	padding-top: 1rem;
+    }
+    
+    #solutions-nav .solution-center.column-3x3 #solutions-box-7 a, 
+    #solutions-nav .solution-center.column-3x3 #solutions-box-4 a {
+        /*margin-top: 55px;*/
+        /*padding-top: 0;*/
+    }
+    
+    #solutions-nav .solution-center.column-3x3 #solutions-box-8 a, 
+    #solutions-nav .solution-center.column-3x3 #solutions-box-5 a {
+        padding-top: 50px;
+        /*padding-top: 0;*/
+    }
+    
+    #solutions-nav .solution-center.column-3x3 .icon-nav {
+        height: 38px;
+    }
+    
+    #solutions-nav .solution-center.column-3x3 #solutions-box-10 .icon-nav {
+    	display: none;
+    }
+    
+    #solutions-nav.parent_column-3x3 .solution-left div a {
+    	min-height: 210px;
+    	max-height: 100%;
+    }
+    #leadership-page .hero.hero--variant-5 {
+    	max-height: calc(100vh - 55px);
+    }
+    
+}
+
+
+@media only screen and (min-width:1056px) and (max-width:1600px) {
+            #home-page .hero__scroll {
+            	bottom: -6%;
+            }
+            #home-page .hero {
+            	max-height: calc(100vh - 50px);
+            }
+    
+}
+
+@media only screen and (min-width:1056px) and (max-width:1440px) and (max-height:860px){
+    main#central-pharmacy-dispensing-service-page .scrollflow.tray {
+        margin-bottom: 130px;
+    }
+    main#central-pharmacy-dispensing-service-page .scrollflow.tray .scrollflow__stick.scrollflow__content {
+    top: 7px;
+    }
+}

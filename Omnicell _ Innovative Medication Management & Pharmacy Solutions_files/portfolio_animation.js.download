@@ -1,0 +1,21 @@
+$(document).ready(function () {
+
+    $('.featured-card').hover(function () {
+        $("#banner--1").finish();    
+        $("#banner--1").css('opacity', '0');
+        var a = $(this).parent().find('.image-hover').attr('data-img');               
+                            
+        $("#banner--1").css('background-image', 'url("' + a + '")');
+        $("#banner--1").animate({ opacity: '1' }, 600, function () {
+            $(this).css('opacity', '1')
+        });                   
+      
+
+    }).mouseleave(function () {
+        $("#banner--1").finish();  
+        $("#banner--1").animate({ opacity: '0' }, 300, function () {                
+            $(this).css('opacity', '0')
+        //}).promise();
+        });
+    });
+});
