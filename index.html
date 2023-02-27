@@ -105073,5 +105073,223 @@ var clientConfig = {
   dragAndDropChatOverlay: true
 };
 </script>
+<script>
+    var isInit = false;
+    var chatOverlayDefaultStateOpen = false;
+ 
+    function Config (config) {
+      this.header = config.header || {};
+      this.openCloseContainer = config.openCloseContainer || {};
+      this.openOnLoad = config.openOnLoad || false;
+      this.iframeSrc = config.iframeSrc || '';
+      this.banner = {
+        title: config.banner && config.banner.title || '',
+        helper: config.banner && config.banner.helper || '',
+        description: config.banner && config.banner.description || ''
+      };
+      this.dragAndDropChatOverlay = config.dragAndDropChatOverlay;
+    }
+ 
+    Config.prototype = {
+      setConfig: function () {
+        var styles = [];
+        if (this.header.backgroundImage) {
+          var headerLogo = document.querySelector('.header-logo img.logo');
+          headerLogo.src = this.header.backgroundImage;
+          var chatOverlayHeaderMobile = document.querySelector('.chat-overlay-wrapper .chat-overlay-header-mobile img.logo');
+          chatOverlayHeaderMobile.src = this.header.backgroundImage;
+        }
+ 
+        if (this.header.backgroundColor) {
+          styles.push('.header-logo { display: flex; background-color: ' + this.header.backgroundColor + '}');
+          styles.push('.chat-overlay-wrapper .chat-overlay-header-mobile { background-color: ' + this.header.backgroundColor + '}');
+        }
+ 
+        if (this.openCloseContainer.backgroundColor) {
+          styles.push('.chat-overlay-header { background-color: ' + this.openCloseContainer.backgroundColor + '}');
+        }
+ 
+        if (this.openCloseContainer.openIconSrc) {
+          var openIconSrc = document.querySelector('.chat-overlay-header .chat-overlay-open');
+          openIconSrc.src = this.openCloseContainer.openIconSrc;
+        }
+ 
+        if (this.openCloseContainer.closeIconSrc) {
+          var closeIconSrc = document.querySelector('.chat-overlay-header .chat-overlay-close');
+          closeIconSrc.src = this.openCloseContainer.closeIconSrc;
+        }
+ 
+        if (this.openOnLoad) {
+          chatOverlayDefaultStateOpen = true;
+        }
+ 
+        if (this.banner.title && this.banner.helper && this.banner.description) {
+          styles.push('.chat-overlay-banner { display: block; }');
+          styles.push('.chat-overlay-closed { height: 210px; }');
+          var chatOverlayBanner = document.querySelector('.chat-overlay-banner');
+          chatOverlayBanner.children[0].innerHTML = this.banner.title;
+          chatOverlayBanner.children[1].innerHTML = this.banner.helper;
+          chatOverlayBanner.children[2].innerHTML = this.banner.description;
+        }
+ 
+        if (styles.length) {
+          var stylesElem = document.createElement('style');
+          stylesElem.innerHTML = styles.join(' ');
+          document.body.appendChild(stylesElem);
+        }
+ 
+        if (this.dragAndDropChatOverlay) {
+          var container = document.querySelector("body");
+          container.addEventListener("touchstart", dragStart, false);
+          container.addEventListener("touchend", dragEnd, false);
+          container.addEventListener("touchmove", drag, false);
+ 
+          container.addEventListener("mousedown", dragStart, false);
+          container.addEventListener("mouseup", dragEnd, false);
+          container.addEventListener("mousemove", drag, false);
+        }
+      }
+    }
+ 
+    var config = new Config(clientConfig);
+    config.setConfig();
+ 
+    function init () {
+      document.getElementById('receiver').src = config.iframeSrc;
+      isInit = true;
+    }
+      
+    function openChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
+      if (!isInit) {
+        init();
+      }
+      document.getElementById('receiver').classList.add("chat-overlay-open");
+      document.getElementById('receiver').classList.remove("chat-overlay-close");
+      document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-open");
+      document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-closed");
+      document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.remove('chat-overlay-close');
+      document.getElementsByClassName('chat-overlay-banner')[0].classList.add('chat-overlay-close');
+      if (imgElemClose) imgElemClose.style.opacity = 1;
+      if (imgElemOpen) imgElemOpen.style.opacity = 0;
+      localStorage.setItem('chatOverlayOpen', true);
+    }
+    
+    function closeChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
+      document.getElementById('receiver').classList.add("chat-overlay-close");
+      document.getElementById('receiver').classList.remove("chat-overlay-open");
+      document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-closed");
+      document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-open");
+      document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.add('chat-overlay-close');
+      document.getElementsByClassName('chat-overlay-banner')[0].classList.remove('chat-overlay-close');
+      if (imgElemOpen) imgElemOpen.style.opacity = 1;
+      if (imgElemClose) imgElemClose.style.opacity = 0;
+      localStorage.setItem('chatOverlayOpen', false);
+    }
+    
+    function toggleChatOverlay () {
+      /**
+       * Toggles opening and closing of the chatOverlay
+       * @returns - no return
+       */
+      var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img chat-overlay-open')[0];
+      var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img chat-overlay-close')[0];
+      var receiverElem = document.getElementById('receiver');
+      if (receiverElem.classList.contains('chat-overlay-close')) {
+        openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+      } else {
+        closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+      }
+    }
+    
+    var chatOverlayHeaderElem = document.getElementsByClassName('chat-overlay-header')[0];
+    chatOverlayHeaderElem.addEventListener('click', toggleChatOverlay);
+    var chatOverlayHeaderElemMobile = document.getElementsByClassName('chat-overlay-header-mobile')[0];
+    chatOverlayHeaderElemMobile.addEventListener('click', toggleChatOverlay);
+    var chatOverlayHeaderLogoClose = document.querySelector('.header-logo img.chat-overlay-close');
+    if (chatOverlayHeaderLogoClose) chatOverlayHeaderLogoClose.addEventListener('click', closeChatOverlay);
+    if (chatOverlayHeaderLogoClose) chatOverlayHeaderLogoClose.addEventListener('click', toggleChatOverlay);
+    var chatOverlayHeaderLogoSvgClose = document.querySelector('.header-logo svg.chat-overlay-close');
+    if (chatOverlayHeaderLogoSvgClose) chatOverlayHeaderLogoSvgClose.addEventListener('click', toggleChatOverlay);
+    
+    
+    if (typeof(Storage) !== "undefined") {
+      var chatOverlayOpen = localStorage.getItem('chatOverlayOpen');
+      var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img chat-overlay-open')[0];
+      var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img chat-overlay-close')[0];
+      var receiverElem = document.getElementById('receiver');
+      if (chatOverlayOpen && localStorage.getItem('chatOverlayOpen') === "false")  {
+        closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+      } else if (chatOverlayOpen && localStorage.getItem('chatOverlayOpen') === "true" || chatOverlayDefaultStateOpen) {
+        openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+      }
+    } else {
+        // Sorry! No Web Storage support..
+      console.log('No localStorage support')
+    }
+ 
+    //START of Chat Overlay drag and drop
+    var dragItem = document.querySelector(".chat-overlay");
+    var touchItem = document.querySelector(".chat-overlay-header-img.chat-overlay-open");
+    var chatOverlayWrapper = document.querySelector('.chat-overlay-wrapper');
+ 
+    var active = false;
+    var currentX;
+    var currentY;
+    var initialX;
+    var initialY;
+    var xOffset = 0;
+    var yOffset = 0;
+ 
+    function dragStart(e) {receiverElemContentWindow       dragged = false;
+      if (e.type === "touchstart") {
+        initialX = e.touches[0].clientX - xOffset;
+        initialY = e.touches[0].clientY - yOffset;
+      } else {
+        initialX = e.clientX - xOffset;
+        initialY = e.clientY - yOffset;
+      }
+ 
+      if (e.target === touchItem) {
+        active = true;
+      }
+    }
+ 
+    function dragEnd(e) {
+      initialX = currentX;
+      initialY = currentY;
+ 
+      active = false;
+      const bodyBound = document.body.getBoundingClientRect();
+      const chatOverlayHeaderBound = document.getElementsByClassName('chat-overlay-header')[0].getBoundingClientRect();
+      const center = {
+        x: chatOverlayHeaderBound.x + chatOverlayHeaderBound.width/2,
+        y: chatOverlayHeaderBound.y + chatOverlayHeaderBound.height/2
+      };
+    }
+ 
+    function drag(e) {
+      if (active) {
+        e.preventDefault();
+ 
+        dragged = true;
+        if (e.type === "touchmove") {
+          currentX = e.touches[0].clientX - initialX;
+          currentY = e.touches[0].clientY - initialY;
+        } else {
+          currentX = e.clientX - initialX;
+          currentY = e.clientY - initialY;
+        }
+ 
+        xOffset = currentX;
+        yOffset = currentY;
+        setTranslate(currentX, currentY, dragItem);
+      }
+    }
+ 
+    function setTranslate(xPos, yPos, el) {
+      el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
+    }
+    /// END of Chat Overlay drag and drop
+</script>
 
     </body></html>
