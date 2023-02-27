@@ -104535,70 +104535,19 @@ height:auto;
 .chat-overlay {
   position: fixed;
   width: 376px;
-  height: 535px;
+  height: 500px;
   bottom: 24px;
   right: 24px;
   z-index: 90;
 }
-   
-.chat-overlay-closed .header-logo {
-  display: none;
-}
-   
-.chat-overlay-banner {
-  display: none;
-  height: 100px;
-  background: rgb(247, 247, 247);
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
-}
-   
-.chat-overlay-banner.chat-overlay-close {
-   display: none;
-}
-   
-.chat-overlay-banner-title {
-   padding-bottom: 0.2rem;
-   font-weight: 800;
- }
-   
-.chat-overlay-banner-helper {
-   opacity: 0.50;
-   padding-bottom: 0.8rem;
- }
-   
-.header-logo {
-  height: 30px;
-  background: rgb(247, 247, 247);
-  border-radius: 0.5rem 0.5rem 0 0;
-  display: none;
-}
-   
-.header-logo img, .header-logo svg {
-  height: inherit;
-}
-   
-.header-logo img.chat-overlay-close {
-  margin-left: auto;
-  align-self: center;
-  height: 50%;
-  padding: 0.5rem;
-}
-   
-.header-logo svg.chat-overlay-close {
-  margin-left: auto;
-  align-self: center;
-  height: 90%;
-  width: 8%;
-}
   
 .chat-overlay-open {
-    height: 535px;
+    height: 512px;
 }
   
 .chat-overlay-closed {
-    height: 71px;
+    height: 78px;
+  
 }
   
 .chat-overlay-wrapper {
@@ -104614,8 +104563,8 @@ height:auto;
   position: relative;
   height: 56px;
   width: 56px;
-  border: 1px solid #FFF;
-  background: #FFF;
+  border: 1px solid black;
+  background: #000;
   margin-left: auto;
   border-radius: 50%;
   box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
@@ -104626,16 +104575,16 @@ height:auto;
   opacity: 1;
   background: rgba(0, 0, 0, 0.5);
   box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.5);
-  border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0.5rem;
 }
   
-#receiver.chat-overlay-close {
+#receiver.close {
   height: 0;
   opacity: 0;
   overflow: hidden;
 }
   
-#receiver.chat-overlay-open {
+#receiver.open {
   height: 100%;
   opacity: 1;
   overflow: hidden;
@@ -104643,8 +104592,8 @@ height:auto;
   
 .chat-overlay-header-img {
   position: absolute;
-  max-width: 24px;
-  max-height: 24px;
+  max-width: 14px;
+  max-height: 14px;
   transition: opacity 1s ease-in-out;
   opacity: 1;
   right: 0px;
@@ -104668,37 +104617,21 @@ height:auto;
     position: fixed;
     height: 100%;
   }
-   
-  .chat-overlay .header-logo {
-    display: none;
-  }
   
   .chat-overlay-header-mobile {
     display: flex;
     width: inherit;
     height: 9%;
-    background: rgb(247, 247, 247);
+    background: #4d5aff;
   }
   
   .chat-overlay-header-mobile img {
     height: 30%;
     padding: 1rem;
-    align-self: center;
-  }
-   
-  .chat-overlay-header-mobile svg.chat-overlay-close {
-    padding: 0.7rem;
-    width: 45px;
     margin-left: auto;
-    height: 100%;
-  }
-   
-  .chat-overlay-header-mobile img.logo {
-    height: 80%;
-    padding: 1rem;
   }
   
-  .chat-overlay-header-mobile.chat-overlay-close {
+  .chat-overlay-header-mobile.close {
     display: none;
   }
   
@@ -104706,13 +104639,13 @@ height:auto;
     border-radius: 0;
   }
   
-  #receiver.chat-overlay-close {
+  #receiver.close {
     height: 0;
     opacity: 0;
     overflow: hidden;
   }
   
-  #receiver.chat-overlay-open {
+  #receiver.open {
     height: 91%;
     opacity: 1;
     overflow: hidden;
@@ -104722,14 +104655,13 @@ height:auto;
     height: 100%;
     bottom: 0px;
     right: 0px;
-  }
+    }
   
   .chat-overlay-closed {
-    height: 205px;;
+        height: 70px;
     bottom: 24px;
     right: 24px;
-    width: 88%;
-  }
+    }
   
   .chat-overlay-wrapper {
     width: 100%;
@@ -104737,61 +104669,6 @@ height:auto;
   }
 }
 </style>
-
-<div class="chat-overlay chat-overlay-closed">
-     <div class="chat-overlay-banner">
-        <div class="chat-overlay-banner-title">Amelia</div>
-        <div class="chat-overlay-banner-helper">Virtual Assistant</div>
-        <div class="chat-overlay-banner-description">Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.</div>
-    </div>
-    <div class="header-logo">
-       <img class="logo" alt="logo" />
-        <!-- <img class="chat-overlay-close" src="./close.png" alt="toggle chat overlay" /> -->
-        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <line x1="4" y1="4" x2="20" y2="20" stroke="#003592" stroke-width="3"></line>
-          <line x1="20" y1="4" x2="4" y2="20" stroke="#003592" stroke-width="3"></line>
-        </svg>
-    </div>
-    <div class="chat-overlay-wrapper">
-      <div class="chat-overlay-header-mobile chat-overlay-close">
-        <img class="logo" alt="logo" />
-        <!-- <img class="chat-overlay-close" src="/close.png" alt="toggle chat overlay" /> -->
-        <svg class="chat-overlay-close" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-          <line x1="1" y1="1" x2="40" y2="40" stroke="#003592" stroke-width="4"></line>
-          <line x1="40" y1="1" x2="1" y2="40" stroke="#003592" stroke-width="4"></line>
-        </svg>
-      </div>
-      <iframe id="receiver" class="chat-overlay-close" frameborder="0" width="100%" height="100%" allow="geolocation; microphone; camera">
-        <p>Your browser does not support iframes.</p>
-      </iframe>
-      <div class="chat-overlay-header">
-        <img class="chat-overlay-header-img chat-overlay-close" alt="toggle chat overlay" />
-        <img class="chat-overlay-header-img chat-overlay-open" alt="toggle chat overlay" />
-      </div>
-    </div>
-  </div>
-  <script>
-var clientConfig = {
-  iframeSrc: 'https://omnicell.dev.amelia.com/Amelia/ui/omnicell/?embed=iframe&domainCode=omnicell',
-  openOnLoad: false,
-  header: {
-    backgroundColor: 'green',
-    backgroundImage: './open.png'
-  },
-  openCloseContainer: {
-    openIconSrc: './icon.png',
-    closeIconSrc: './close.png',
-    backgroundColor: 'blue'
-  },
-  banner: {
-    title: 'Amelia',
-    helper: 'Virtual Assistant',
-    description: 'Hello, I am Amelia. How can I help you today? If this is a medical emergency, please call 911 or report to your local emergency room.'
-  },
-  dragAndDropChatOverlay: true
-};
-</script>
-
 
 <!-- IE model popup-->
 <div id="IE-popup" class="igx-modal rss-blog-modal active" data-target="IEModal" style="display: none;">
@@ -104860,6 +104737,36 @@ $('#IE-popup').css('display','block')
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXNPJDS"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+<script>
+function receiveMessage(e, data) {
+    /**
+     * Receive message from child frame and update the DOM
+     * @param {Object} data - data used to update the DOM
+     * @returns - no return
+     */
+    // Check to make sure that this message came from the correct domain.
+   
+    var url = e.data.url;
+    if (e.origin !== 'https://MyAmelia.ipsoft.com')
+      return;
+  
+     if (e.data.action === "checkout" && e.data.additionalData) {
+        window.location.href = "/checkout/?additionalData="+ e.data.additionalData;
+    }
+  }
+ 
+  function sendMessage(data) {
+    /**
+     * Use data object and postMessage to URL provided (postMessage to child frame)
+     * @param {Object} data - data to be sent to url provided of child frame
+     * @returns - no return
+     */
+ 
+    var receiverElem = document.getElementById('receiver').contentWindow;
+    receiverElem.postMessage(data, "https://MyAmelia.ipsoft.com/Amelia/ui/MyAmeliaUIBundle/?embed=iframe&domainCode=MyAmeliaDomainCode");
+  }
+window.addEventListener('message', receiveMessage);
+</script>
 
 <!-- Modal -->
 <div id="rss-blog-popup" class="igx-modal rss-blog-modal" data-target="rssBlogModal" style="display: none;">
@@ -104879,6 +104786,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <a href="https://www.omnicell.com/#" class="rss-btn btn-cancel">Cancel</a>
         </div>
     </div>
+</div>
+
+<div class="chat-overlay">
+  <div class="chat-overlay-wrapper">
+        <div class="chat-overlay-header-mobile">
+        <img class="close" src="./close.png" alt="toggle chat overlay" />
+      </div>
+      <iframe id="receiver" src="https://MyAmelia.ipsoft.com/Amelia/ui/MyAmeliaUIBundle/?embed=iframe&domainCode=MyAmeliaDomainCode" frameborder="0" width="100%" height="100%" allow="geolocation; microphone; camera">
+        <p>Your browser does not support iframes.</p>
+      </iframe>
+      <div class="chat-overlay-header">
+        <img class="chat-overlay-header-img close" src="./close.png" alt="toggle chat overlay" />
+        <img class="chat-overlay-header-img open" src="./icon.png" alt="toggle chat overlay" />
+      </div>
+  </div>
 </div>
 
 <!-- Modal -->
@@ -104962,6 +104884,68 @@ $(window).resize(function(){
 }
 }
 </style>
+
+<script>
+  
+  function openChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
+    document.getElementById('receiver').classList.add("open");
+    document.getElementById('receiver').classList.remove("close");
+    document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-open");
+    document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-closed");
+    document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.remove('close');
+    imgElemClose.style.opacity = 1;
+    imgElemOpen.style.opacity = 0;
+    localStorage.setItem('chatOverlayOpen', true);
+  }
+  
+  function closeChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
+    document.getElementById('receiver').classList.add("close");
+    document.getElementById('receiver').classList.remove("open");
+    document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-closed");
+    document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-open");
+    document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.add('close');
+    imgElemOpen.style.opacity = 1;
+    imgElemClose.style.opacity = 0;
+    localStorage.setItem('chatOverlayOpen', false);
+  }
+  
+  function toggleChatOverlay () {
+    /**
+     * Toggles opening and closing of the chatOverlay
+     * @returns - no return
+     */
+    var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img open')[0];
+    var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img close')[0];
+    var receiverElem = document.getElementById('receiver');
+    if (receiverElem.classList.contains('close')) {
+      openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+    } else {
+      closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+    }
+  }
+  
+  var chatOverlayHeaderElem = document.getElementsByClassName('chat-overlay-header')[0];
+  chatOverlayHeaderElem.addEventListener('click', toggleChatOverlay);
+  var chatOverlayHeaderElemMobile = document.getElementsByClassName('chat-overlay-header-mobile')[0];
+  chatOverlayHeaderElemMobile.addEventListener('click', toggleChatOverlay);
+  
+  if (typeof(Storage) !== "undefined") {
+    var chatOverlayOpen = localStorage.getItem('chatOverlayOpen');
+    var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img open')[0];
+    var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img close')[0];
+    var receiverElem = document.getElementById('receiver');
+    if (chatOverlayOpen && localStorage.getItem('chatOverlayOpen') !== "true") {
+      closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+    } else {
+      openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
+    }
+  } else {
+      // Sorry! No Web Storage support..
+    console.log('No localStorage support')
+  }
+  
+</script>
+
 
 <img alt="" src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/ipv" class="optanon-category-C0002 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct(1)" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct(2)" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct(3)" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct(4)" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><img src="./Omnicell _ Innovative Medication Management &amp; Pharmacy Solutions_files/adsct(5)" height="1" width="1" class="optanon-category-C0004 " style="display: none;"><div id="onetrust-consent-sdk"><div class="onetrust-pc-dark-filter ot-hide ot-fade-in"></div><div id="ot-sdk-btn-floating" title="Change Cookie Settings" class="ot-floating-button"><div class="ot-floating-button__front custom-persistent-icon"><button type="button" class="ot-floating-button__open" aria-label="Open Preferences"></button></div><div class="ot-floating-button__back custom-persistent-icon"><button type="button" class="ot-floating-button__close"><!--?xml version="1.0" encoding="UTF-8"?--> <svg role="presentation" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Banner_02" class="ot-floating-button__svg-fill" transform="translate(-318.000000, -725.000000)" fill="#ffffff" fill-rule="nonzero"><g id="Group-2" transform="translate(305.000000, 712.000000)"><g id="icon/16px/white/close"><polygon id="Line1" points="13.3333333 14.9176256 35.0823744 36.6666667 36.6666667 35.0823744 14.9176256 13.3333333"></polygon><polygon id="Line2" transform="translate(25.000000, 25.000000) scale(-1, 1) translate(-25.000000, -25.000000) " points="13.3333333 14.9176256 35.0823744 36.6666667 36.6666667 35.0823744 14.9176256 13.3333333"></polygon></g></g></g></g></svg></button></div></div></div><script type="text/javascript" id="">jQuery(document).ready(function(a){$checks=a(".pd-checkbox input:checkbox");$checks.on("change",function(){if(1<a(this).parents(".pd-checkbox").find("input:checkbox").length){var b=$checks.filter(":checked").map(function(c,d){return a(this).next("label").text()}).get().join(", ");a(".Marketing_Comments input").val(b)}})});</script><script type="text/javascript" id="">(function(e){function f(a,b,c){if(a.addEventListener)a.addEventListener(b,c);else if(a.attachEvent)a.attachEvent("on"+b,function(d){c.call(a,d)});else if("undefined"===typeof a["on"+b]||null===a["on"+b])a["on"+b]=function(d){c.call(a,d)}}f(e,"message",function(a){try{var b=JSON.parse(a.data),c=e.dataLayer||(e.dataLayer=[]);b.event&&c.push({event:b.event,postMessageData:b})}catch(d){}})})(window);</script><div class="acsb-widget acsb-widget-position-left acsb-ready" style="display: none;" tabindex="-1" role="dialog" aria-label="Accessibility Adjustments" aria-modal="true" aria-hidden="true" data-acsb="widget"> <div class="acsb-main" data-acsb="main"> <div class="acsb-header acsb-flex"> <div class="acsb-start"> <a href="https://www.omnicell.com/#" role="button" tabindex="0" class="acsb-header-option acsb-header-option-close" data-acsb-option="close" aria-label="Close Accessibility Interface"> <i class="acsbi-close"></i> </a> </div> <a role="button" href="https://www.omnicell.com/#" tabindex="0" aria-label="English" class="acsb-language acsb-header-option-language" data-acsb-option="language" data-acsb-popup-trigger="acsb-language-popup"> <span class="acsb-language-flag"> <span data-acsb-lazy-load="https://cdn.acsbapp.com/apps/app/dist/media/languages/en.svg" data-acsb-lazy-load-options="alt=English"></span> </span> <span class="acsb-language-text">English</span> <i class="acsbi-chevron_down"></i> </a>
 </div> <div class="acsb-hero"> <span class="acsb-hero-title">Accessibility Adjustments</span> <div class="acsb-hero-actions acsb-flex"> <a href="https://www.omnicell.com/#" class="acsb-hero-action" role="button" tabindex="0" data-acsb-option="reset"> <i class="acsbi-reset"></i> <span>Reset Settings</span> </a> <a href="https://www.omnicell.com/#" class="acsb-hero-action" role="button" data-acsb-option="statement"> <i class="acsbi-bookmark"></i> <span>Statement</span> </a> <a href="https://www.omnicell.com/#" class="acsb-hero-action" role="button" tabindex="0" data-acsb-popup-trigger="acsb-hide-popup"> <i class="acsbi-hide"></i> <span>Hide Interface</span> </a> </div>
@@ -105073,223 +105057,4 @@ $(window).resize(function(){
     }
     body .acsb-trigger .acsb-actions-active-icon {
         border-color: #4bb459 !important;
-    }</style>
-    
-    <script>
-    var isInit = false;
-    var chatOverlayDefaultStateOpen = false;
- 
-    function Config (config) {
-      this.header = config.header || {};
-      this.openCloseContainer = config.openCloseContainer || {};
-      this.openOnLoad = config.openOnLoad || false;
-      this.iframeSrc = config.iframeSrc || '';
-      this.banner = {
-        title: config.banner && config.banner.title || '',
-        helper: config.banner && config.banner.helper || '',
-        description: config.banner && config.banner.description || ''
-      };
-      this.dragAndDropChatOverlay = config.dragAndDropChatOverlay;
-    }
- 
-    Config.prototype = {
-      setConfig: function () {
-        var styles = [];
-        if (this.header.backgroundImage) {
-          var headerLogo = document.querySelector('.header-logo img.logo');
-          headerLogo.src = this.header.backgroundImage;
-          var chatOverlayHeaderMobile = document.querySelector('.chat-overlay-wrapper .chat-overlay-header-mobile img.logo');
-          chatOverlayHeaderMobile.src = this.header.backgroundImage;
-        }
- 
-        if (this.header.backgroundColor) {
-          styles.push('.header-logo { display: flex; background-color: ' + this.header.backgroundColor + '}');
-          styles.push('.chat-overlay-wrapper .chat-overlay-header-mobile { background-color: ' + this.header.backgroundColor + '}');
-        }
- 
-        if (this.openCloseContainer.backgroundColor) {
-          styles.push('.chat-overlay-header { background-color: ' + this.openCloseContainer.backgroundColor + '}');
-        }
- 
-        if (this.openCloseContainer.openIconSrc) {
-          var openIconSrc = document.querySelector('.chat-overlay-header .chat-overlay-open');
-          openIconSrc.src = this.openCloseContainer.openIconSrc;
-        }
- 
-        if (this.openCloseContainer.closeIconSrc) {
-          var closeIconSrc = document.querySelector('.chat-overlay-header .chat-overlay-close');
-          closeIconSrc.src = this.openCloseContainer.closeIconSrc;
-        }
- 
-        if (this.openOnLoad) {
-          chatOverlayDefaultStateOpen = true;
-        }
- 
-        if (this.banner.title && this.banner.helper && this.banner.description) {
-          styles.push('.chat-overlay-banner { display: block; }');
-          styles.push('.chat-overlay-closed { height: 210px; }');
-          var chatOverlayBanner = document.querySelector('.chat-overlay-banner');
-          chatOverlayBanner.children[0].innerHTML = this.banner.title;
-          chatOverlayBanner.children[1].innerHTML = this.banner.helper;
-          chatOverlayBanner.children[2].innerHTML = this.banner.description;
-        }
- 
-        if (styles.length) {
-          var stylesElem = document.createElement('style');
-          stylesElem.innerHTML = styles.join(' ');
-          document.body.appendChild(stylesElem);
-        }
- 
-        if (this.dragAndDropChatOverlay) {
-          var container = document.querySelector("body");
-          container.addEventListener("touchstart", dragStart, false);
-          container.addEventListener("touchend", dragEnd, false);
-          container.addEventListener("touchmove", drag, false);
- 
-          container.addEventListener("mousedown", dragStart, false);
-          container.addEventListener("mouseup", dragEnd, false);
-          container.addEventListener("mousemove", drag, false);
-        }
-      }
-    }
- 
-    var config = new Config(clientConfig);
-    config.setConfig();
- 
-    function init () {
-      document.getElementById('receiver').src = config.iframeSrc;
-      isInit = true;
-    }
-      
-    function openChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
-      if (!isInit) {
-        init();
-      }
-      document.getElementById('receiver').classList.add("chat-overlay-open");
-      document.getElementById('receiver').classList.remove("chat-overlay-close");
-      document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-open");
-      document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-closed");
-      document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.remove('chat-overlay-close');
-      document.getElementsByClassName('chat-overlay-banner')[0].classList.add('chat-overlay-close');
-      if (imgElemClose) imgElemClose.style.opacity = 1;
-      if (imgElemOpen) imgElemOpen.style.opacity = 0;
-      localStorage.setItem('chatOverlayOpen', true);
-    }
-    
-    function closeChatOverlay (receiverElem, imgElemOpen, imgElemClose) {
-      document.getElementById('receiver').classList.add("chat-overlay-close");
-      document.getElementById('receiver').classList.remove("chat-overlay-open");
-      document.getElementsByClassName('chat-overlay')[0].classList.add("chat-overlay-closed");
-      document.getElementsByClassName('chat-overlay')[0].classList.remove("chat-overlay-open");
-      document.getElementsByClassName('chat-overlay-header-mobile')[0].classList.add('chat-overlay-close');
-      document.getElementsByClassName('chat-overlay-banner')[0].classList.remove('chat-overlay-close');
-      if (imgElemOpen) imgElemOpen.style.opacity = 1;
-      if (imgElemClose) imgElemClose.style.opacity = 0;
-      localStorage.setItem('chatOverlayOpen', false);
-    }
-    
-    function toggleChatOverlay () {
-      /**
-       * Toggles opening and closing of the chatOverlay
-       * @returns - no return
-       */
-      var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img chat-overlay-open')[0];
-      var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img chat-overlay-close')[0];
-      var receiverElem = document.getElementById('receiver');
-      if (receiverElem.classList.contains('chat-overlay-close')) {
-        openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
-      } else {
-        closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
-      }
-    }
-    
-    var chatOverlayHeaderElem = document.getElementsByClassName('chat-overlay-header')[0];
-    chatOverlayHeaderElem.addEventListener('click', toggleChatOverlay);
-    var chatOverlayHeaderElemMobile = document.getElementsByClassName('chat-overlay-header-mobile')[0];
-    chatOverlayHeaderElemMobile.addEventListener('click', toggleChatOverlay);
-    var chatOverlayHeaderLogoClose = document.querySelector('.header-logo img.chat-overlay-close');
-    if (chatOverlayHeaderLogoClose) chatOverlayHeaderLogoClose.addEventListener('click', closeChatOverlay);
-    if (chatOverlayHeaderLogoClose) chatOverlayHeaderLogoClose.addEventListener('click', toggleChatOverlay);
-    var chatOverlayHeaderLogoSvgClose = document.querySelector('.header-logo svg.chat-overlay-close');
-    if (chatOverlayHeaderLogoSvgClose) chatOverlayHeaderLogoSvgClose.addEventListener('click', toggleChatOverlay);
-    
-    
-    if (typeof(Storage) !== "undefined") {
-      var chatOverlayOpen = localStorage.getItem('chatOverlayOpen');
-      var chatOverlayHeaderImgElemOpen = document.getElementsByClassName('chat-overlay-header-img chat-overlay-open')[0];
-      var chatOverlayHeaderImgElemClose = document.getElementsByClassName('chat-overlay-header-img chat-overlay-close')[0];
-      var receiverElem = document.getElementById('receiver');
-      if (chatOverlayOpen && localStorage.getItem('chatOverlayOpen') === "false")  {
-        closeChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
-      } else if (chatOverlayOpen && localStorage.getItem('chatOverlayOpen') === "true" || chatOverlayDefaultStateOpen) {
-        openChatOverlay(receiverElem, chatOverlayHeaderImgElemOpen, chatOverlayHeaderImgElemClose);
-      }
-    } else {
-        // Sorry! No Web Storage support..
-      console.log('No localStorage support')
-    }
- 
-    //START of Chat Overlay drag and drop
-    var dragItem = document.querySelector(".chat-overlay");
-    var touchItem = document.querySelector(".chat-overlay-header-img.chat-overlay-open");
-    var chatOverlayWrapper = document.querySelector('.chat-overlay-wrapper');
- 
-    var active = false;
-    var currentX;
-    var currentY;
-    var initialX;
-    var initialY;
-    var xOffset = 0;
-    var yOffset = 0;
- 
-    function dragStart(e) {receiverElemContentWindow       dragged = false;
-      if (e.type === "touchstart") {
-        initialX = e.touches[0].clientX - xOffset;
-        initialY = e.touches[0].clientY - yOffset;
-      } else {
-        initialX = e.clientX - xOffset;
-        initialY = e.clientY - yOffset;
-      }
- 
-      if (e.target === touchItem) {
-        active = true;
-      }
-    }
- 
-    function dragEnd(e) {
-      initialX = currentX;
-      initialY = currentY;
- 
-      active = false;
-      const bodyBound = document.body.getBoundingClientRect();
-      const chatOverlayHeaderBound = document.getElementsByClassName('chat-overlay-header')[0].getBoundingClientRect();
-      const center = {
-        x: chatOverlayHeaderBound.x + chatOverlayHeaderBound.width/2,
-        y: chatOverlayHeaderBound.y + chatOverlayHeaderBound.height/2
-      };
-    }
- 
-    function drag(e) {
-      if (active) {
-        e.preventDefault();
- 
-        dragged = true;
-        if (e.type === "touchmove") {
-          currentX = e.touches[0].clientX - initialX;
-          currentY = e.touches[0].clientY - initialY;
-        } else {
-          currentX = e.clientX - initialX;
-          currentY = e.clientY - initialY;
-        }
- 
-        xOffset = currentX;
-        yOffset = currentY;
-        setTranslate(currentX, currentY, dragItem);
-      }
-    }
- 
-    function setTranslate(xPos, yPos, el) {
-      el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
-    }
-    /// END of Chat Overlay drag and drop
-</script></body></html>
+    }</style></body></html>
